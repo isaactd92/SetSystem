@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<block>
+  <name>SetSystem</name>
+  <key>SetSystem_SetSystem</key>
+  <category>[SetSystem]</category>
+  <import>import SetSystem</import>
+  <make>SetSystem.SetSystem($path_file, $mac_block, $port_block, $ip_host)</make>
+<param>
+    <name>Path_racp</name>
+    <key>path_file</key>
+    <value></value>
+    <type>file_open</type>
+  </param>
+  <param>
+    <name>MAC_host</name>
+    <key>mac_block</key>
+    <value></value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Port_host</name>
+    <key>port_block</key>
+    <value></value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>IP_host</name>
+    <key>ip_host</key>
+    <value></value>
+    <type>string</type>
+  </param>
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>int</type>
+  </source>
+</block>
