@@ -1,0 +1,30 @@
+INCLUDE(FindPkgConfig)
+PKG_CHECK_MODULES(PC_SETSYSTEM SetSystem)
+
+FIND_PATH(
+    SETSYSTEM_INCLUDE_DIRS
+    NAMES SetSystem/api.h
+    HINTS $ENV{SETSYSTEM_DIR}/include
+        ${PC_SETSYSTEM_INCLUDEDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/include
+          /usr/local/include
+          /usr/include
+)
+
+FIND_LIBRARY(
+    SETSYSTEM_LIBRARIES
+    NAMES gnuradio-SetSystem
+    HINTS $ENV{SETSYSTEM_DIR}/lib
+        ${PC_SETSYSTEM_LIBDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/lib
+          ${CMAKE_INSTALL_PREFIX}/lib64
+          /usr/local/lib
+          /usr/local/lib64
+          /usr/lib
+          /usr/lib64
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(SETSYSTEM DEFAULT_MSG SETSYSTEM_LIBRARIES SETSYSTEM_INCLUDE_DIRS)
+MARK_AS_ADVANCED(SETSYSTEM_LIBRARIES SETSYSTEM_INCLUDE_DIRS)
+
