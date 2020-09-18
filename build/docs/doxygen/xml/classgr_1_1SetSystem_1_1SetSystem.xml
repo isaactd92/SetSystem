@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1SetSystem_1_1SetSystem" kind="class" language="C++" prot="public">
+    <compoundname>gr::SetSystem::SetSystem</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1SetSystem_1_1SetSystem__impl" prot="public" virt="non-virtual">gr::SetSystem::SetSystem_impl</derivedcompoundref>
+    <includes refid="SetSystem_8h" local="no">SetSystem.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1SetSystem_1_1SetSystem_1a5f7be1dd26d5c2c6d9341f0608e969d5" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1SetSystem_1_1SetSystem" kindref="compound">SetSystem</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;SetSystem&gt; gr::SetSystem::SetSystem::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/SetSystem.h" line="39" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/SetSystem.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1SetSystem_1_1SetSystem_1a2f0eeebdc0e14c09da909e1f53504742" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1SetSystem_1_1SetSystem_1a5f7be1dd26d5c2c6d9341f0608e969d5" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::SetSystem::SetSystem::make</definition>
+        <argsstring>(const char *path_file, const std::string mac_block, int port_block, const std::string ip_host)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const char *</type>
+          <declname>path_file</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>mac_block</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port_block</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>ip_host</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1SetSystem_1_1SetSystem" kindref="compound">SetSystem::SetSystem</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1SetSystem_1_1SetSystem" kindref="compound">SetSystem::SetSystem</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1SetSystem_1_1SetSystem_1a2f0eeebdc0e14c09da909e1f53504742" kindref="member">SetSystem::SetSystem::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/SetSystem.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="63">
+        <label>gr::SetSystem::SetSystem_impl</label>
+        <link refid="classgr_1_1SetSystem_1_1SetSystem__impl"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>gr::SetSystem::SetSystem</label>
+        <link refid="classgr_1_1SetSystem_1_1SetSystem"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="64">
+        <label>gr::SetSystem::SetSystem</label>
+        <link refid="classgr_1_1SetSystem_1_1SetSystem"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/SetSystem.h" line="37" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/SetSystem.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1SetSystem_1_1SetSystem_1a2f0eeebdc0e14c09da909e1f53504742" prot="public" virt="non-virtual"><scope>gr::SetSystem::SetSystem</scope><name>make</name></member>
+      <member refid="classgr_1_1SetSystem_1_1SetSystem_1a5f7be1dd26d5c2c6d9341f0608e969d5" prot="public" virt="non-virtual"><scope>gr::SetSystem::SetSystem</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

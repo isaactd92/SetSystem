@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__SystemParam" kind="struct" language="C++" prot="public">
+    <compoundname>_SystemParam</compoundname>
+    <includes refid="ExperimentConstants_8h" local="no">ExperimentConstants.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__SystemParam_1a156626ad2463a55b96e202712cd69c9c" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nHeader_Sys_Length</definition>
+        <argsstring></argsstring>
+        <name>m_nHeader_Sys_Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="125" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="125" bodyend="-1"/>
+        <referencedby refid="classJicaHeader_1a5b585e14f2c611b0eef14bd1d87123a5" compoundref="JicaHeader_8h" startline="89" endline="250">JicaHeader::GetExpParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nSamples</definition>
+        <argsstring></argsstring>
+        <name>m_nSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="126" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">ExpParameters::Initialize</referencedby>
+        <referencedby refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" compoundref="JarsControl_8h" startline="888" endline="926">_JARSControl::InternalCallback</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ExpParameters::ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nProfiles</definition>
+        <argsstring></argsstring>
+        <name>m_nProfiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="127" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">ExpParameters::Initialize</referencedby>
+        <referencedby refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" compoundref="JarsControl_8h" startline="888" endline="926">_JARSControl::InternalCallback</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ExpParameters::ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nChannels</definition>
+        <argsstring></argsstring>
+        <name>m_nChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="128" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">ExpParameters::Initialize</referencedby>
+        <referencedby refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" compoundref="JarsControl_8h" startline="888" endline="926">_JARSControl::InternalCallback</referencedby>
+        <referencedby refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" compoundref="JarsControl_8h" startline="279" endline="291">_JARSControl::jro_AssignMemory</referencedby>
+        <referencedby refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" compoundref="JarsControl_8h" startline="581" endline="593">_JARSControl::jro_InitAcquisition</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ExpParameters::ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nADCResolution</definition>
+        <argsstring></argsstring>
+        <name>m_nADCResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="129" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="129" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">ExpParameters::Initialize</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ExpParameters::ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nPCIDIOBusWidth</definition>
+        <argsstring></argsstring>
+        <name>m_nPCIDIOBusWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="130" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="130" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">ExpParameters::Initialize</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ExpParameters::ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1aa49917e56c5325e41bbb7430e092cf46" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _SystemParam::m_sFilterPath[_MAX_PATH]</definition>
+        <argsstring>[_MAX_PATH]</argsstring>
+        <name>m_sFilterPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="133" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" compoundref="JarsControl_8h" startline="279" endline="291">_JARSControl::jro_AssignMemory</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ExpParameters::ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1abb9ba419e2dd0853d6d43e1a32f3de7a" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nNumberOfChannel[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>m_nNumberOfChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="135" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" compoundref="JarsControl_8h" startline="279" endline="291">_JARSControl::jro_AssignMemory</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ExpParameters::ReadRACPFileParameters</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="125" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="124" bodyend="137"/>
+    <listofallmembers>
+      <member refid="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nADCResolution</name></member>
+      <member refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nChannels</name></member>
+      <member refid="struct__SystemParam_1a156626ad2463a55b96e202712cd69c9c" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nHeader_Sys_Length</name></member>
+      <member refid="struct__SystemParam_1abb9ba419e2dd0853d6d43e1a32f3de7a" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nNumberOfChannel</name></member>
+      <member refid="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nPCIDIOBusWidth</name></member>
+      <member refid="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nProfiles</name></member>
+      <member refid="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nSamples</name></member>
+      <member refid="struct__SystemParam_1aa49917e56c5325e41bbb7430e092cf46" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_sFilterPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="ArgProcessor_8h" kind="file" language="C++">
+    <compoundname>ArgProcessor.h</compoundname>
+    <includes refid="JarsControl_8h" local="yes">JarsControl/JarsControl.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippversion.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippdefs.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippbase.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ipptypes.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippcore.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippcore_l.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippdefs_l.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ipptypes_l.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippcc.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippcc_l.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippdc.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippch.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippcv.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippcv_l.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippi.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippi_l.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ipps.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ipps_l.h</includes>
+    <includes local="yes">/opt/intel/ipp/include/ippvm.h</includes>
+    <includes local="yes">/usr/include/python2.7/patchlevel.h</includes>
+    <includes local="yes">/usr/include/python2.7/pyconfig.h</includes>
+    <includes local="yes">/usr/include/python2.7/pymacconfig.h</includes>
+    <includes local="no">limits.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="yes">/usr/include/python2.7/pyport.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="yes">/usr/include/python2.7/pymath.h</includes>
+    <includes local="yes">/usr/include/python2.7/pymem.h</includes>
+    <includes local="yes">/usr/include/python2.7/object.h</includes>
+    <includes local="yes">/usr/include/python2.7/objimpl.h</includes>
+    <includes local="yes">/usr/include/python2.7/pydebug.h</includes>
+    <includes local="yes">/usr/include/python2.7/unicodeobject.h</includes>
+    <includes local="no">stdarg.h</includes>
+    <includes local="no">ctype.h</includes>
+    <includes local="yes">/usr/include/python2.7/intobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/boolobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/longobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/floatobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/complexobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/rangeobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/stringobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/memoryobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/bufferobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/bytesobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/bytearrayobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/tupleobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/listobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/dictobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/enumobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/setobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/methodobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/moduleobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/funcobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/classobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/fileobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/cobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/pycapsule.h</includes>
+    <includes local="yes">/usr/include/python2.7/traceback.h</includes>
+    <includes local="yes">/usr/include/python2.7/sliceobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/cellobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/iterobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/genobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/descrobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/warnings.h</includes>
+    <includes local="yes">/usr/include/python2.7/weakrefobject.h</includes>
+    <includes local="yes">/usr/include/python2.7/codecs.h</includes>
+    <includes local="yes">/usr/include/python2.7/pyerrors.h</includes>
+    <includes local="yes">/usr/include/python2.7/pystate.h</includes>
+    <includes local="yes">/usr/include/python2.7/pyarena.h</includes>
+    <includes local="yes">/usr/include/python2.7/modsupport.h</includes>
+    <includes local="yes">/usr/include/python2.7/pythonrun.h</includes>
+    <includes local="yes">/usr/include/python2.7/ceval.h</includes>
+    <includes local="yes">/usr/include/python2.7/sysmodule.h</includes>
+    <includes local="yes">/usr/include/python2.7/intrcheck.h</includes>
+    <includes local="yes">/usr/include/python2.7/import.h</includes>
+    <includes local="yes">/usr/include/python2.7/abstract.h</includes>
+    <includes local="yes">/usr/include/python2.7/compile.h</includes>
+    <includes local="yes">/usr/include/python2.7/code.h</includes>
+    <includes local="yes">/usr/include/python2.7/eval.h</includes>
+    <includes local="yes">/usr/include/python2.7/pyctype.h</includes>
+    <includes local="yes">/usr/include/python2.7/pystrtod.h</includes>
+    <includes local="yes">/usr/include/python2.7/pystrcmp.h</includes>
+    <includes local="yes">/usr/include/python2.7/dtoa.h</includes>
+    <includes local="yes">/usr/include/python2.7/pyfpe.h</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="122">
+        <label>/usr/include/python2.7/pyctype.h</label>
+      </node>
+      <node id="57">
+        <label>/opt/intel/ipp/include/ippcv_l.h</label>
+      </node>
+      <node id="10">
+        <label>/opt/intel/ipp/include/ipp.h</label>
+      </node>
+      <node id="6">
+        <label>RdpToolsBeta/RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>stdarg.h</label>
+      </node>
+      <node id="51">
+        <label>/opt/intel/ipp/include/ipptypes_l.h</label>
+      </node>
+      <node id="34">
+        <label>netinet/in.h</label>
+      </node>
+      <node id="35">
+        <label>arpa/inet.h</label>
+      </node>
+      <node id="103">
+        <label>/usr/include/python2.7/iterobject.h</label>
+      </node>
+      <node id="37">
+        <label>gnuradio/math.h</label>
+      </node>
+      <node id="77">
+        <label>/usr/include/python2.7/intobject.h</label>
+      </node>
+      <node id="114">
+        <label>/usr/include/python2.7/ceval.h</label>
+      </node>
+      <node id="44">
+        <label>/opt/intel/ipp/include/ippversion.h</label>
+      </node>
+      <node id="32">
+        <label>bits/stdc++.h</label>
+      </node>
+      <node id="106">
+        <label>/usr/include/python2.7/warnings.h</label>
+      </node>
+      <node id="31">
+        <label>assert.h</label>
+      </node>
+      <node id="118">
+        <label>/usr/include/python2.7/abstract.h</label>
+      </node>
+      <node id="22">
+        <label>/usr/include/python2.7/Python.h</label>
+      </node>
+      <node id="99">
+        <label>/usr/include/python2.7/pycapsule.h</label>
+      </node>
+      <node id="85">
+        <label>/usr/include/python2.7/bufferobject.h</label>
+      </node>
+      <node id="23">
+        <label>MemoryManager/MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>/usr/include/python2.7/dictobject.h</label>
+      </node>
+      <node id="121">
+        <label>/usr/include/python2.7/eval.h</label>
+      </node>
+      <node id="25">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>/opt/intel/ipp/include/ippcv.h</label>
+      </node>
+      <node id="30">
+        <label>stdint.h</label>
+      </node>
+      <node id="13">
+        <label>stdlib.h</label>
+      </node>
+      <node id="81">
+        <label>/usr/include/python2.7/complexobject.h</label>
+      </node>
+      <node id="53">
+        <label>/opt/intel/ipp/include/ippcc_l.h</label>
+      </node>
+      <node id="58">
+        <label>/opt/intel/ipp/include/ippi.h</label>
+      </node>
+      <node id="95">
+        <label>/usr/include/python2.7/funcobject.h</label>
+      </node>
+      <node id="89">
+        <label>/usr/include/python2.7/listobject.h</label>
+      </node>
+      <node id="110">
+        <label>/usr/include/python2.7/pystate.h</label>
+      </node>
+      <node id="84">
+        <label>/usr/include/python2.7/memoryobject.h</label>
+      </node>
+      <node id="42">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="62">
+        <label>/opt/intel/ipp/include/ippvm.h</label>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="40">
+        <label>errno.h</label>
+      </node>
+      <node id="79">
+        <label>/usr/include/python2.7/longobject.h</label>
+      </node>
+      <node id="39">
+        <label>stdexcept</label>
+      </node>
+      <node id="100">
+        <label>/usr/include/python2.7/traceback.h</label>
+      </node>
+      <node id="93">
+        <label>/usr/include/python2.7/methodobject.h</label>
+      </node>
+      <node id="59">
+        <label>/opt/intel/ipp/include/ippi_l.h</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="88">
+        <label>/usr/include/python2.7/tupleobject.h</label>
+      </node>
+      <node id="104">
+        <label>/usr/include/python2.7/genobject.h</label>
+      </node>
+      <node id="124">
+        <label>/usr/include/python2.7/pystrcmp.h</label>
+      </node>
+      <node id="73">
+        <label>/usr/include/python2.7/pydebug.h</label>
+      </node>
+      <node id="49">
+        <label>/opt/intel/ipp/include/ippcore_l.h</label>
+      </node>
+      <node id="117">
+        <label>/usr/include/python2.7/import.h</label>
+      </node>
+      <node id="107">
+        <label>/usr/include/python2.7/weakrefobject.h</label>
+      </node>
+      <node id="7">
+        <label>exception</label>
+      </node>
+      <node id="119">
+        <label>/usr/include/python2.7/compile.h</label>
+      </node>
+      <node id="94">
+        <label>/usr/include/python2.7/moduleobject.h</label>
+      </node>
+      <node id="69">
+        <label>/usr/include/python2.7/pymath.h</label>
+      </node>
+      <node id="36">
+        <label>netdb.h</label>
+      </node>
+      <node id="47">
+        <label>/opt/intel/ipp/include/ipptypes.h</label>
+      </node>
+      <node id="54">
+        <label>/opt/intel/ipp/include/ippdc.h</label>
+      </node>
+      <node id="109">
+        <label>/usr/include/python2.7/pyerrors.h</label>
+      </node>
+      <node id="64">
+        <label>/usr/include/python2.7/pyconfig.h</label>
+      </node>
+      <node id="46">
+        <label>/opt/intel/ipp/include/ippbase.h</label>
+      </node>
+      <node id="123">
+        <label>/usr/include/python2.7/pystrtod.h</label>
+      </node>
+      <node id="125">
+        <label>/usr/include/python2.7/dtoa.h</label>
+      </node>
+      <node id="87">
+        <label>/usr/include/python2.7/bytearrayobject.h</label>
+      </node>
+      <node id="101">
+        <label>/usr/include/python2.7/sliceobject.h</label>
+      </node>
+      <node id="66">
+        <label>limits.h</label>
+      </node>
+      <node id="80">
+        <label>/usr/include/python2.7/floatobject.h</label>
+      </node>
+      <node id="52">
+        <label>/opt/intel/ipp/include/ippcc.h</label>
+      </node>
+      <node id="97">
+        <label>/usr/include/python2.7/fileobject.h</label>
+      </node>
+      <node id="12">
+        <label>JicaHeader/JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>boost/asio.hpp</label>
+      </node>
+      <node id="43">
+        <label>gnuradio/thread/thread.h</label>
+      </node>
+      <node id="70">
+        <label>/usr/include/python2.7/pymem.h</label>
+      </node>
+      <node id="111">
+        <label>/usr/include/python2.7/pyarena.h</label>
+      </node>
+      <node id="28">
+        <label>pthread.h</label>
+      </node>
+      <node id="78">
+        <label>/usr/include/python2.7/boolobject.h</label>
+      </node>
+      <node id="16">
+        <label>string.h</label>
+      </node>
+      <node id="82">
+        <label>/usr/include/python2.7/rangeobject.h</label>
+      </node>
+      <node id="120">
+        <label>/usr/include/python2.7/code.h</label>
+      </node>
+      <node id="113">
+        <label>/usr/include/python2.7/pythonrun.h</label>
+      </node>
+      <node id="72">
+        <label>/usr/include/python2.7/objimpl.h</label>
+      </node>
+      <node id="102">
+        <label>/usr/include/python2.7/cellobject.h</label>
+      </node>
+      <node id="83">
+        <label>/usr/include/python2.7/stringobject.h</label>
+      </node>
+      <node id="27">
+        <label>zmq.hpp</label>
+      </node>
+      <node id="5">
+        <label>JarsControl/JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>/usr/include/python2.7/modsupport.h</label>
+      </node>
+      <node id="86">
+        <label>/usr/include/python2.7/bytesobject.h</label>
+      </node>
+      <node id="61">
+        <label>/opt/intel/ipp/include/ipps_l.h</label>
+      </node>
+      <node id="29">
+        <label>unistd.h</label>
+      </node>
+      <node id="20">
+        <label>vector</label>
+      </node>
+      <node id="116">
+        <label>/usr/include/python2.7/intrcheck.h</label>
+      </node>
+      <node id="4">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>/usr/include/python2.7/object.h</label>
+      </node>
+      <node id="126">
+        <label>/usr/include/python2.7/pyfpe.h</label>
+      </node>
+      <node id="55">
+        <label>/opt/intel/ipp/include/ippch.h</label>
+      </node>
+      <node id="14">
+        <label>time.h</label>
+      </node>
+      <node id="68">
+        <label>math.h</label>
+      </node>
+      <node id="60">
+        <label>/opt/intel/ipp/include/ipps.h</label>
+      </node>
+      <node id="45">
+        <label>/opt/intel/ipp/include/ippdefs.h</label>
+      </node>
+      <node id="115">
+        <label>/usr/include/python2.7/sysmodule.h</label>
+      </node>
+      <node id="9">
+        <label>iostream</label>
+      </node>
+      <node id="17">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="48">
+        <label>/opt/intel/ipp/include/ippcore.h</label>
+      </node>
+      <node id="96">
+        <label>/usr/include/python2.7/classobject.h</label>
+      </node>
+      <node id="76">
+        <label>ctype.h</label>
+      </node>
+      <node id="74">
+        <label>/usr/include/python2.7/unicodeobject.h</label>
+      </node>
+      <node id="105">
+        <label>/usr/include/python2.7/descrobject.h</label>
+      </node>
+      <node id="108">
+        <label>/usr/include/python2.7/codecs.h</label>
+      </node>
+      <node id="33">
+        <label>sys/socket.h</label>
+      </node>
+      <node id="92">
+        <label>/usr/include/python2.7/setobject.h</label>
+      </node>
+      <node id="24">
+        <label>ExperimentParameters/ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>/usr/include/python2.7/pymacconfig.h</label>
+      </node>
+      <node id="38">
+        <label>gnuradio/prefs.h</label>
+      </node>
+      <node id="98">
+        <label>/usr/include/python2.7/cobject.h</label>
+      </node>
+      <node id="26">
+        <label>complex</label>
+      </node>
+      <node id="50">
+        <label>/opt/intel/ipp/include/ippdefs_l.h</label>
+      </node>
+      <node id="21">
+        <label>algorithm</label>
+      </node>
+      <node id="91">
+        <label>/usr/include/python2.7/enumobject.h</label>
+      </node>
+      <node id="15">
+        <label>stdio.h</label>
+      </node>
+      <node id="63">
+        <label>/usr/include/python2.7/patchlevel.h</label>
+      </node>
+      <node id="67">
+        <label>/usr/include/python2.7/pyport.h</label>
+      </node>
+      <node id="19">
+        <label>dirent.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classArgProcessor" prot="public">ArgProcessor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ARGPROCESSOR_ARGPROCESSOR_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ARGPROCESSOR_ARGPROCESSOR_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="JarsControl_8h" kindref="compound">JarsControl/JarsControl.h</ref>&quot;</highlight><highlight class="comment">//llama<sp/>al<sp/>objeto<sp/>JARControl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classArgProcessor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classArgProcessor" kindref="compound">ArgProcessor</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classExpParameters" kindref="compound">ExpParameters</ref><sp/>&amp;MyParameters;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classArgProcessor_1a389b174af18021e3e81d0ddc58599a6b" kindref="member">ArgProcessor</ref>(<ref refid="classExpParameters" kindref="compound">ExpParameters</ref><sp/>&amp;MyParameters);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classArgProcessor_1a2cad62b4bd3cb5245466d1f76876c915" kindref="member">~ArgProcessor</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classArgProcessor_1a7f00d6545730abc12fcf68ed863d2030" kindref="member">jro_arguments</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>path);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//***<sp/>Define<sp/>el<sp/>atributo<sp/>private<sp/>de<sp/>ArgProcessor<sp/>igual<sp/>a<sp/>los<sp/>parámetros<sp/>del<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classArgProcessor_1a389b174af18021e3e81d0ddc58599a6b" refkind="member"><highlight class="normal"><ref refid="classArgProcessor_1a389b174af18021e3e81d0ddc58599a6b" kindref="member">ArgProcessor::ArgProcessor</ref>(<ref refid="classExpParameters" kindref="compound">ExpParameters</ref><sp/>&amp;params)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">:MyParameters(params)</highlight><highlight class="comment">//El<sp/>atributo<sp/>private<sp/>MyParameters<sp/>será<sp/>igual<sp/>a<sp/>params<sp/>para<sp/>que<sp/>no<sp/>haya<sp/>error<sp/>de<sp/>inicialización//la<sp/>referencias<sp/>siempre<sp/>deben<sp/>ser<sp/>declaradas.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="23" refid="classArgProcessor_1a2cad62b4bd3cb5245466d1f76876c915" refkind="member"><highlight class="normal"><ref refid="classArgProcessor_1a2cad62b4bd3cb5245466d1f76876c915" kindref="member">ArgProcessor::~ArgProcessor</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//*****Dependiendo<sp/>de<sp/>los<sp/>parámetros<sp/>que<sp/>entran<sp/>en<sp/>el<sp/>main,<sp/>guarda<sp/>las<sp/>direcciones<sp/>de<sp/>los<sp/>objetos<sp/>de<sp/>los<sp/>modos<sp/>de<sp/>operación<sp/>en<sp/>**<sp/>AcqMan</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classArgProcessor_1a7f00d6545730abc12fcf68ed863d2030" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classArgProcessor_1a7f00d6545730abc12fcf68ed863d2030" kindref="member">ArgProcessor::jro_arguments</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>path)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!MyParameters.<ref refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" kindref="member">ReadRACPFileParameters</ref>(path))</highlight><highlight class="comment">//Obtenido<sp/>de<sp/>GNU<sp/>Radio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n<sp/>Error<sp/>en<sp/>leer<sp/>el<sp/>RacpFile<sp/>\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/ArgProcessor.h"/>
+  </compounddef>
+</doxygen>

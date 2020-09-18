@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="JicaHeader_8h" kind="file" language="C++">
+    <compoundname>JicaHeader.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">sys/timeb.h</includes>
+    <includes local="no">sys/stat.h</includes>
+    <includes local="no">dirent.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">/usr/include/python2.7/Python.h</includes>
+    <includes refid="MemoryManager_8h" local="yes">MemoryManager/MemoryManager.h</includes>
+    <includes local="no">zmq.hpp</includes>
+    <includedby refid="RdpToolsBeta_8h" local="yes">RdpToolsBeta.h</includedby>
+    <incdepgraph>
+      <node id="209">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="213">
+        <label>/usr/include/python2.7/Python.h</label>
+      </node>
+      <node id="214">
+        <label>MemoryManager/MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+      </node>
+      <node id="216">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="202">
+        <label>stdlib.h</label>
+      </node>
+      <node id="205">
+        <label>string</label>
+      </node>
+      <node id="201">
+        <label>JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>string.h</label>
+      </node>
+      <node id="218">
+        <label>zmq.hpp</label>
+      </node>
+      <node id="211">
+        <label>vector</label>
+      </node>
+      <node id="203">
+        <label>time.h</label>
+      </node>
+      <node id="207">
+        <label>iostream</label>
+      </node>
+      <node id="208">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="215">
+        <label>ExperimentParameters/ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>complex</label>
+      </node>
+      <node id="212">
+        <label>algorithm</label>
+      </node>
+      <node id="204">
+        <label>stdio.h</label>
+      </node>
+      <node id="210">
+        <label>dirent.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="220">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="221" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="220" relation="include">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="222">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>SetSystem_impl.h</label>
+        <link refid="SetSystem__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classJicaHeader" prot="public">JicaHeader</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="JicaHeader_8h_1acfa1e2b991d398ea406cdd6198bb2ee6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>zmq::context_t</type>
+        <definition>zmq::context_t context</definition>
+        <argsstring>(1)</argsstring>
+        <name>context</name>
+        <param>
+          <type>1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="24" column="1"/>
+        <referencedby refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" compoundref="JarsControl_8h" startline="888" endline="926">_JARSControl::InternalCallback</referencedby>
+        <referencedby refid="class__JARSControl_1a6e97ca0b4324bc1af443e36b28bb1d3e" compoundref="JarsControl_8h" startline="757" endline="793">_JARSControl::InternalRcv</referencedby>
+        <referencedby refid="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" compoundref="JarsControl_8h" startline="805" endline="879">_JARSControl::InternalThreadEntry</referencedby>
+        <referencedby refid="classJicaHeader_1a1c47a7a4cb68e44b44c3f6702d9cf453" compoundref="JicaHeader_8h" startline="352" endline="422">JicaHeader::SaveData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="JicaHeader_8h_1af42437b535247c43f0fe1655be00ca38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * concat</definition>
+        <argsstring>(char *dest, const char *src)</argsstring>
+        <name>concat</name>
+        <param>
+          <type>char *</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="65" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="609" bodyend="620"/>
+        <referencedby refid="classJicaHeader_1a70bc6badd8a52e89e02187bb802dfd6e" compoundref="JicaHeader_8h" startline="529" endline="607">JicaHeader::MakeDirectory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="JicaHeader_8h_1aadcc545330049a0a9eabd8875dd12fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool has_suffix</definition>
+        <argsstring>(const string &amp;s, const string &amp;suffix)</argsstring>
+        <name>has_suffix</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>suffix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="520" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="520" bodyend="523"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h"/>
+  </compounddef>
+</doxygen>

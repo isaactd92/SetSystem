@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsp601__command" kind="class" language="C++" prot="public">
+    <compoundname>sp601_command</compoundname>
+    <includes refid="JarsControl_8h" local="no">JarsControl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsp601__command_1ab96dc6299f8ee6dd7bde84584ea72d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sp601_command::sp601_command</definition>
+        <argsstring>()</argsstring>
+        <name>sp601_command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="92" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="964" bodyend="965"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a4acdc1e7593b27a8831b0bea12e27aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sp601_command::~sp601_command</definition>
+        <argsstring>()</argsstring>
+        <name>~sp601_command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="93" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="967" bodyend="968"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a00e7747470750f26ba33b69b9a1b028b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sp601_command::init</definition>
+        <argsstring>(address host_address)</argsstring>
+        <name>init</name>
+        <param>
+          <type><ref refid="structaddress" kindref="compound">address</ref></type>
+          <declname>host_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="94" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="970" bodyend="1023"/>
+        <references refid="structaddress_1aacbeb5a1db9cfa6bcabb47d819818b1e" compoundref="JarsControl_8h" startline="68">address::d_ip_host</references>
+        <references refid="structaddress_1a47c83523d9cc06ed386f29e5fcd5eeda" compoundref="JarsControl_8h" startline="66">address::d_mac_block</references>
+        <references refid="structaddress_1aeeeea32d04a247d4a5351e33af8674a8" compoundref="JarsControl_8h" startline="67">address::d_port_block</references>
+        <references refid="JarsControl_8h_1ab2dd9706c8afee0101f9fb673f23a9e1" compoundref="JarsControl_8h" startline="1037" endline="1056">fpga_con_init</references>
+        <references refid="JarsControl_8h_1acdbbef5f7b2938fa8a308d3a7237723e" compoundref="JarsControl_8h" startline="1282" endline="1286">intToBytes</references>
+        <references refid="JarsControl_8h_1ae3793cb02de7605c651d1762415629f8" compoundref="JarsControl_8h" startline="1242" endline="1252">IPstr_to_bytearray</references>
+        <references refid="JarsControl_8h_1a9fe1a038e1882c74961f61186cc7a811" compoundref="JarsControl_8h" startline="1268" endline="1279">MACstr_to_bytearray</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152abd7b2f700ca4ef2b11180557059e6bbd" compoundref="JarsControl_8h" startline="62">SET_COMMS_IP</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152aedb06bfaf37d18638b99cabc860b5c4b" compoundref="JarsControl_8h" startline="62">SET_COMMS_MAC</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a57446329e1b880f1e79096d89ca90abf" compoundref="JarsControl_8h" startline="62">SET_COMMS_PORT</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152abff6b2d1371663911c20d04738892bfd" compoundref="JarsControl_8h" startline="62">SET_SP601_IP</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a578a2dc0f32dacf50c510f7009c12d1f" compoundref="JarsControl_8h" startline="62">SET_SP601_PORT</references>
+        <references refid="structjars__cmd_1a2ac9bbc25760e1a29a170271d68ea390" compoundref="JarsControl_8h" startline="84">jars_cmd::size</references>
+        <references refid="classsp601__config_1ad6492c0298daa685d0ba7dfc38a85b14" compoundref="JarsControl_8h" startline="184">sp601_config::SP601_IP</references>
+        <references refid="classsp601__config_1af3c1756c00b9954a476698c62911feb7" compoundref="JarsControl_8h" startline="185">sp601_config::SP601_PORT</references>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a0f20108067e472db69a628ecb02e2c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ssize_t</type>
+        <definition>ssize_t sp601_command::receive</definition>
+        <argsstring>(char *buffer_rcv)</argsstring>
+        <name>receive</name>
+        <param>
+          <type>char *</type>
+          <declname>buffer_rcv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="95" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="1026" bodyend="1031"/>
+        <references refid="JarsControl_8h_1afd1cbc76708d71bb56dfcaf96eb90eba" compoundref="JarsControl_8h" startline="1077" endline="1086">fpga_con_recv</references>
+        <references refid="JarsControl_8h_1ae6cae658beb94f4ddfcaa58ee33dd38b" compoundref="JarsControl_8h" startline="60">RCV_BUFSIZE</references>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a190c6be31617bd6b50fc7f4a451a56ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sp601_command::send</definition>
+        <argsstring>(uint8_t cmd, char code, const char *payload, size_t size_payload)</argsstring>
+        <name>send</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size_payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="96" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="1095" bodyend="1238"/>
+        <references refid="structjars__cmd_1a667569fb6dd6e6bc0b0699d0e1a49b22" compoundref="JarsControl_8h" startline="85">jars_cmd::ack</references>
+        <references refid="JarsControl_8h_1a19a52ae0d3c91c019542bc76a720aef9" compoundref="JarsControl_8h" startline="1261" endline="1265">bytearray_to_int</references>
+        <references refid="JarsControl_8h_1a0a6858dd58a8b8b154e5dd149fafd01d" compoundref="JarsControl_8h" startline="1255" endline="1258">bytearray_to_IPstr</references>
+        <references refid="JarsControl_8h_1a186f7c0fc2f44b39853cd79d8daa6b65" compoundref="JarsControl_8h" startline="1289" endline="1291">bytearray_to_MACstr</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a55636b09cf88b31facd828042757e8cd" compoundref="JarsControl_8h" startline="62">DATA_LOOPS</references>
+        <references refid="JarsControl_8h_1aacac2365f297d20c92dac6c32a87c6a3" compoundref="JarsControl_8h" startline="78">DISABLE_TRANSF</references>
+        <references refid="JarsControl_8h_1ab8923675701bbbb7f51c4e68fac5e588" compoundref="JarsControl_8h" startline="74">ELECTION_RXD</references>
+        <references refid="JarsControl_8h_1ad7e5e3b2ac85d92fe9b81bac2368ca02" compoundref="JarsControl_8h" startline="77">ENABLE_TRANSF</references>
+        <references refid="JarsControl_8h_1afd1cbc76708d71bb56dfcaf96eb90eba" compoundref="JarsControl_8h" startline="1077" endline="1086">fpga_con_recv</references>
+        <references refid="JarsControl_8h_1a8ec1b8a8eeca1b70875f6a4c037dc3e1" compoundref="JarsControl_8h" startline="1061" endline="1073">fpga_con_send</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152af2fb94d1fd1739ad68220e57882efa23" compoundref="JarsControl_8h" startline="62">GET_VALUE</references>
+        <references refid="classsp601__config_1a5f4214fdc2d5b4cc6cf2665ad6233838" compoundref="JarsControl_8h" startline="187">sp601_config::IP_host</references>
+        <references refid="JarsControl_8h_1a44ec176a02a62ada468ebde1b3f6e9f0" compoundref="JarsControl_8h" startline="1296" endline="1340">itoa</references>
+        <references refid="classsp601__config_1a2c2cf407fda2eff4bfb66c2624105c7f" compoundref="JarsControl_8h" startline="188">sp601_config::MAC_host</references>
+        <references refid="JarsControl_8h_1a52e278dd9e601652e8ab11b70c53ef6e" compoundref="JarsControl_8h" startline="73">MODE_OPER</references>
+        <references refid="structjars__cmd_1ac1538c1c69d889eefbabfc077e59d96f" compoundref="JarsControl_8h" startline="82">jars_cmd::name</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a7316843e88740cd819c6427a7f833df6" compoundref="JarsControl_8h" startline="62">NOOP</references>
+        <references refid="classsp601__config_1aa8d75acd776756f7b46560c340a4817d" compoundref="JarsControl_8h" startline="189">sp601_config::PORT_host</references>
+        <references refid="JarsControl_8h_1a063240a0c681e13158e249f55ac4b750" compoundref="JarsControl_8h" startline="75">POWER_RXD</references>
+        <references refid="JarsControl_8h_1aefde68a634d66b7039aa56de3fd5301b" compoundref="JarsControl_8h" startline="76">PROG_RXD</references>
+        <references refid="JarsControl_8h_1ae6cae658beb94f4ddfcaa58ee33dd38b" compoundref="JarsControl_8h" startline="60">RCV_BUFSIZE</references>
+        <references refid="JarsControl_8h_1a1aa9678f48f9b9661062c9246e64993a" compoundref="JarsControl_8h" startline="72">RST_CTRL</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a685f467976dffd4af61e2c198bba3e07" compoundref="JarsControl_8h" startline="62">SEND_COMMAND</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a28b6b130f7a5b8cdbee96bb17ef151af" compoundref="JarsControl_8h" startline="62">SEND_FILTER</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152abd7b2f700ca4ef2b11180557059e6bbd" compoundref="JarsControl_8h" startline="62">SET_COMMS_IP</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152aedb06bfaf37d18638b99cabc860b5c4b" compoundref="JarsControl_8h" startline="62">SET_COMMS_MAC</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a57446329e1b880f1e79096d89ca90abf" compoundref="JarsControl_8h" startline="62">SET_COMMS_PORT</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152abff6b2d1371663911c20d04738892bfd" compoundref="JarsControl_8h" startline="62">SET_SP601_IP</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a578a2dc0f32dacf50c510f7009c12d1f" compoundref="JarsControl_8h" startline="62">SET_SP601_PORT</references>
+        <references refid="structjars__cmd_1a2ac9bbc25760e1a29a170271d68ea390" compoundref="JarsControl_8h" startline="84">jars_cmd::size</references>
+        <references refid="classsp601__config_1ad6492c0298daa685d0ba7dfc38a85b14" compoundref="JarsControl_8h" startline="184">sp601_config::SP601_IP</references>
+        <references refid="classsp601__config_1af3c1756c00b9954a476698c62911feb7" compoundref="JarsControl_8h" startline="185">sp601_config::SP601_PORT</references>
+        <references refid="structjars__cmd_1a08d03301fdc843da88b71ab8d5576a97" compoundref="JarsControl_8h" startline="83">jars_cmd::val</references>
+        <references refid="classsp601__config_1a6d8f61af0597bc1c6ca208898fc76f77" compoundref="JarsControl_8h" startline="194">sp601_config::VERBOSE_MODE</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="90" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="89" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classsp601__command_1a00e7747470750f26ba33b69b9a1b028b" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>init</name></member>
+      <member refid="classsp601__command_1a0f20108067e472db69a628ecb02e2c4a" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>receive</name></member>
+      <member refid="classsp601__command_1a190c6be31617bd6b50fc7f4a451a56ac" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>send</name></member>
+      <member refid="classsp601__command_1ab96dc6299f8ee6dd7bde84584ea72d5f" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>sp601_command</name></member>
+      <member refid="classsp601__command_1a4acdc1e7593b27a8831b0bea12e27aa5" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>~sp601_command</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

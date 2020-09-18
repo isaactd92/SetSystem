@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_985cea1d589b2aee8196c1f2bc69b3ec" kind="dir">
+    <compoundname>ExperimentConstants</compoundname>
+    <innerfile refid="ExperimentConstants_8h">ExperimentConstants.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/"/>
+  </compounddef>
+</doxygen>

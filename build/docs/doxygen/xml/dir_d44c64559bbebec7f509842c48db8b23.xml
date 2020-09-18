@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>include</compoundname>
+    <innerdir refid="dir_1490c80a2e6495e463704d21dd58f7b5">SetSystem</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/"/>
+  </compounddef>
+</doxygen>

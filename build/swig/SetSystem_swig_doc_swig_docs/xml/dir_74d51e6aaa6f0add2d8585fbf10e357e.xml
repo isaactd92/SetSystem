@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_74d51e6aaa6f0add2d8585fbf10e357e" kind="dir">
+    <compoundname>MemoryManager</compoundname>
+    <innerdir refid="dir_61431442ad19803c75db71951c74daaf">ExperimentParameters</innerdir>
+    <innerfile refid="MemoryManager_8h">MemoryManager.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/"/>
+  </compounddef>
+</doxygen>

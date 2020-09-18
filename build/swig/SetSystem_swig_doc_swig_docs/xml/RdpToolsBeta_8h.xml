@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="RdpToolsBeta_8h" kind="file" language="C++">
+    <compoundname>RdpToolsBeta.h</compoundname>
+    <includes local="no">exception</includes>
+    <includes local="no">string</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">/opt/intel/ipp/include/ipp.h</includes>
+    <includes local="no">cmath</includes>
+    <includes refid="JicaHeader_8h" local="yes">JicaHeader/JicaHeader.h</includes>
+    <includedby refid="JarsControl_8h" local="yes">JarsControl.h</includedby>
+    <incdepgraph>
+      <node id="243">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="235">
+        <label>/opt/intel/ipp/include/ipp.h</label>
+      </node>
+      <node id="231">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="247">
+        <label>/usr/include/python2.7/Python.h</label>
+      </node>
+      <node id="248">
+        <label>MemoryManager/MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>stdlib.h</label>
+      </node>
+      <node id="236">
+        <label>cmath</label>
+      </node>
+      <node id="233">
+        <label>string</label>
+      </node>
+      <node id="232">
+        <label>exception</label>
+      </node>
+      <node id="237">
+        <label>JicaHeader/JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>string.h</label>
+      </node>
+      <node id="252">
+        <label>zmq.hpp</label>
+      </node>
+      <node id="245">
+        <label>vector</label>
+      </node>
+      <node id="239">
+        <label>time.h</label>
+      </node>
+      <node id="234">
+        <label>iostream</label>
+      </node>
+      <node id="242">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="249">
+        <label>ExperimentParameters/ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>complex</label>
+      </node>
+      <node id="246">
+        <label>algorithm</label>
+      </node>
+      <node id="240">
+        <label>stdio.h</label>
+      </node>
+      <node id="244">
+        <label>dirent.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="253">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+      <node id="254">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classRdpToolsExcep" prot="public">RdpToolsExcep</innerclass>
+    <innerclass refid="classRdpToolsBeta" prot="public">RdpToolsBeta</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="RdpToolsBeta_8h_1a085c363f5335019dbbe9495c01ecf283" prot="public" static="no">
+        <name>Data_Win_Err</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="15" column="9" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="RdpToolsBeta_8h_1a1a0d762fa518b7a4cca9bc3f7e9b6726" prot="public" static="no">
+        <name>Acq_DH_Err</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="16" column="9" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ARGPROCESSOR_JARSCONTROL_RDPTOOLSBETA_RDPTOOLBETA_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ARGPROCESSOR_JARSCONTROL_RDPTOOLSBETA_RDPTOOLBETA_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;exception&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;/opt/intel/ipp/include/ipp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="JicaHeader_8h" kindref="compound">JicaHeader/JicaHeader.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="RdpToolsBeta_8h_1a085c363f5335019dbbe9495c01ecf283" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Data_Win_Err<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="RdpToolsBeta_8h_1a1a0d762fa518b7a4cca9bc3f7e9b6726" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Acq_DH_Err<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classRdpToolsExcep" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classRdpToolsExcep" kindref="compound">RdpToolsExcep</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>exception<sp/></highlight><highlight class="comment">//clase:superclase</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//genera<sp/>3<sp/>string:<sp/>logfilename:<sp/>guarda<sp/>la<sp/>direccion,<sp/>info<sp/>especifica<sp/>el<sp/>error<sp/>y<sp/>se<sp/>adjunta<sp/>a<sp/>msg,<sp/>msg<sp/>nos<sp/>da<sp/>el<sp/>error<sp/>con<sp/>tiempo.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//Creará<sp/>un<sp/>archivo<sp/>.log<sp/>con:<sp/>la<sp/>información<sp/>del<sp/>error,<sp/>la<sp/>fecha<sp/>y<sp/>hora<sp/>del<sp/>error.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classRdpToolsExcep_1a0629676f8ca01ae673816c54a9222c4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classRdpToolsExcep_1a0629676f8ca01ae673816c54a9222c4c" kindref="member">RdpToolsExcep</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>logpath)</highlight><highlight class="comment">//(Data_Win_Err,m_sBaseDirectory);directorio<sp/>donde<sp/>se<sp/>guardará</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time_t<sp/>seconds;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ptime;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logfilename.append(logpath);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logfilename.append(</highlight><highlight class="stringliteral">&quot;/ProcessErr.log&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>msg.append(</highlight><highlight class="stringliteral">&quot;Error:\n\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>seconds<sp/>=<sp/>time(NULL);</highlight><highlight class="comment">//NULL=no<sp/>toma<sp/>en<sp/>consideración<sp/>el<sp/>parámetro<sp/>pero<sp/>igual<sp/>te<sp/>da<sp/>la<sp/>respuesta<sp/>en<sp/>la<sp/>variable<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ptime<sp/>=ctime(&amp;seconds);</highlight><highlight class="comment">//nos<sp/>da<sp/>la<sp/>hora<sp/>en<sp/>formato<sp/>humano</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(err)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="RdpToolsBeta_8h_1a085c363f5335019dbbe9495c01ecf283" kindref="member">Data_Win_Err</ref>:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info.append(</highlight><highlight class="stringliteral">&quot;MyExpParam-&gt;MyGPParam.FixPP.m_nData_Windows<sp/>&lt;=<sp/>0&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>msg.append(info);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info.append(</highlight><highlight class="stringliteral">&quot;\n\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="RdpToolsBeta_8h_1a1a0d762fa518b7a4cca9bc3f7e9b6726" kindref="member">Acq_DH_Err</ref>:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info.append(</highlight><highlight class="stringliteral">&quot;MyExpParam-&gt;MyGRCParam.Dyn_sfAcqDH[0]<sp/>&lt;=<sp/>0&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>msg.append(info);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info.append(</highlight><highlight class="stringliteral">&quot;\n\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//agrega<sp/>la<sp/>hora<sp/><sp/>y<sp/>fecha<sp/>del<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info+=</highlight><highlight class="stringliteral">&quot;Date:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info+=ptime;info+=</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//DEBUG<sp/>implementar<sp/>esto<sp/>aqui</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>msg.append(</highlight><highlight class="stringliteral">&quot;\n\nRead<sp/>the<sp/>ProcessErr.log<sp/>for<sp/>more<sp/>information.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53" refid="classRdpToolsExcep_1a0c2578969fefc405555829efe7edc477" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classRdpToolsExcep_1a0c2578969fefc405555829efe7edc477" kindref="member">~RdpToolsExcep</ref>()<sp/>throw(){}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classRdpToolsExcep_1a46648e1b055f47e40195002a260b2ba2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classRdpToolsExcep_1a46648e1b055f47e40195002a260b2ba2" kindref="member">what</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>throw()</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FILE*<sp/>pRdpToolsLog;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRdpToolsLog<sp/>=<sp/>fopen(logfilename.c_str(),</highlight><highlight class="stringliteral">&quot;a&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//fprintf(pRdpToolsLog,info.c_str());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs(info.c_str(),pRdpToolsLog);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(pRdpToolsLog);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>msg.c_str();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>msg;</highlight><highlight class="comment">//se<sp/>guardará<sp/>el<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>info;</highlight><highlight class="comment">//informa<sp/>el<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>logfilename;</highlight><highlight class="comment">//se<sp/>anexará<sp/>(append)<sp/>la<sp/>direccion<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//**************************************************************************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//**************************************************************************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="classRdpToolsBeta" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classRdpToolsBeta" kindref="compound">RdpToolsBeta</ref></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classRdpToolsBeta" kindref="compound">RdpToolsBeta</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classRdpToolsBeta" kindref="compound">RdpToolsBeta</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//Obtiene<sp/>punteros<sp/>a<sp/>objetos<sp/>ExpParameters<sp/>y<sp/>MemoryManager,<sp/>para<sp/>acceder<sp/>a<sp/>los<sp/>parametros</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//y<sp/>a<sp/>los<sp/>buffers<sp/>que<sp/>se<sp/>necesitaran<sp/>para<sp/>la<sp/>adquisicion<sp/>y<sp/>procesamiento.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetExtParameters(<ref refid="classExpParameters" kindref="compound">ExpParameters</ref>*<sp/>ExpParam,<ref refid="classMemoryManager" kindref="compound">MemoryManager</ref>*<sp/>MemManger)</highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//punteros<sp/>para<sp/>acceder<sp/>a<sp/>los<sp/>parametros<sp/>del<sp/>experimento<sp/>y<sp/>a<sp/>los<sp/>buffers<sp/>creados<sp/>para</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//este.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classExpParameters" kindref="compound">ExpParameters</ref>*<sp/>MyExpParam;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMemoryManager" kindref="compound">MemoryManager</ref>*<sp/>MyMemManager;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">//funcion<sp/>encargada<sp/>de<sp/>cargar<sp/>los<sp/>parametros<sp/>en<sp/>una<sp/>estructura<sp/>tipo<sp/>params<sp/>y<sp/>de<sp/>cargar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//las<sp/>funciones<sp/>a<sp/>el<sp/>arreglo<sp/>process_functions(params&amp;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>initVariables()</highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">//Constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="classRdpToolsBeta_1a7d16fd73e88508cebd358cae0a3595aa" refkind="member"><highlight class="normal"><ref refid="classRdpToolsBeta_1a7d16fd73e88508cebd358cae0a3595aa" kindref="member">RdpToolsBeta::RdpToolsBeta</ref>()</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam=NULL;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyMemManager=NULL;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="classRdpToolsBeta_1a0b0f4ee66ef5b97685b5516df8c67d32" refkind="member"><highlight class="normal"><ref refid="classRdpToolsBeta_1a0b0f4ee66ef5b97685b5516df8c67d32" kindref="member">RdpToolsBeta::~RdpToolsBeta</ref>()</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//Inicializa<sp/>algunas<sp/>variables<sp/>(HO,NSA,DH)<sp/>de<sp/>Experiment<sp/>Parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//Inicializa<sp/>los<sp/>punteros<sp/>de<sp/>ExpParameters<sp/>y<sp/>MemoryManager</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="classRdpToolsBeta_1aaecbe9ab223710a25f9aff8422834ebc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRdpToolsBeta_1aaecbe9ab223710a25f9aff8422834ebc" kindref="member">RdpToolsBeta::GetExtParameters</ref>(<ref refid="classExpParameters" kindref="compound">ExpParameters</ref>*<sp/>ExpParam,<ref refid="classMemoryManager" kindref="compound">MemoryManager</ref>*<sp/>MemManger)</highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">()<sp/></highlight><highlight class="comment">//la<sp/>funcion<sp/>no<sp/>generará<sp/>ninguna<sp/>excepcion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//almacena<sp/>puntero<sp/>a<sp/>objeto<sp/>con<sp/>informacion<sp/>del<sp/>experimento</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam=ExpParam;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//almacena<sp/>puntero<sp/>a<sp/>objeto<sp/>con<sp/>informacion<sp/>de<sp/>memoria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyMemManager=MemManger;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//inicializa<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initVariables();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="comment">//funciones<sp/>de<sp/>inicicalizacion<sp/>de<sp/>procesos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment">//Da<sp/>valor<sp/>a<sp/>los<sp/>parámetros<sp/>de<sp/>ventana<sp/>(H0,NSA,DH),genera<sp/>excepciones<sp/>RdpToolsExcepdefine,si<sp/>las<sp/>hay,<sp/>y<sp/>define<sp/>Dyn_snCode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">//Dyn_snCode=code_binaries=arreglo<sp/>de<sp/>arreglos<sp/>donde<sp/>cada<sp/>elemento<sp/>es<sp/>un<sp/>complemento<sp/>a<sp/>2<sp/>dependiendo<sp/>del<sp/>code_binaries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>RdpToolsBeta::initVariables()</highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">()</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//numero<sp/>de<sp/>muestras<sp/>que<sp/>se<sp/>van<sp/>a<sp/>restar<sp/>debido<sp/>a<sp/>la<sp/>decodificacion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>restNSA=0;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ancho<sp/>de<sp/>estas<sp/>muestras<sp/>en<sp/>km</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>restNSAkm=0;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//establece<sp/>numero<sp/>de<sp/>ventanas<sp/>a<sp/>m_nData_Windows</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//m_nProcessWindows<sp/>inicializado<sp/>como<sp/>0<sp/>en<sp/>ExperimentParameters<sp/>y<sp/>queda<sp/>ese<sp/>valor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MyExpParam-&gt;MyGPParam.m_nProcessWindows&gt;0)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam-&gt;MyGPParam.FixPP.m_nData_Windows<sp/>=<sp/>MyExpParam-&gt;MyGPParam.m_nProcessWindows;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam-&gt;MyGPParam.FixPP.m_nData_Windows<sp/>=<sp/>MyExpParam-&gt;MyGRCParam.FixRCP.m_nNum_Windows;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Nos<sp/>genera<sp/>una<sp/>excepcion<sp/>de<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MyExpParam-&gt;MyGPParam.FixPP.m_nData_Windows<sp/>&lt;=<sp/>0)</highlight><highlight class="comment">//m_nData_Windows<sp/>será<sp/>mínimo<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/><ref refid="classRdpToolsExcep" kindref="compound">RdpToolsExcep</ref>(<ref refid="RdpToolsBeta_8h_1a085c363f5335019dbbe9495c01ecf283" kindref="member">Data_Win_Err</ref>,MyExpParam-&gt;MyGPParam.m_sBaseDirectory);</highlight><highlight class="comment">//genera<sp/>la<sp/>excepcion<sp/>definida<sp/>en<sp/>RdpToolsExceptions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Excepcion<sp/>de<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//--------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//crea<sp/>arreglos<sp/>para<sp/>almacenar<sp/>los<sp/>valores<sp/>de<sp/>los<sp/>parametros<sp/>de<sp/>las<sp/>ventanas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Altura<sp/>inicial,número<sp/>de<sp/>muestras,resolución(problema<sp/>m_nData_Windows<sp/>inicializado<sp/>con<sp/>1<sp/>¿Cuándo<sp/>cambia?)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam-&gt;MyGPParam.Dyn_sfDataH0<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[MyExpParam-&gt;MyGPParam.FixPP.m_nData_Windows];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam-&gt;MyGPParam.Dyn_snDataNSA<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>[MyExpParam-&gt;MyGPParam.FixPP.m_nData_Windows];</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam-&gt;MyGPParam.Dyn_sfDataDH<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[MyExpParam-&gt;MyGPParam.FixPP.m_nData_Windows];</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ingresa<sp/>los<sp/>valores<sp/>de<sp/>los<sp/>parametros<sp/>de<sp/>ventana<sp/>dependiendo<sp/>de<sp/>m_nData_Windows</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Da<sp/>valores<sp/>de<sp/>H0,NSAyDh<sp/>a<sp/>DataHo,NSA<sp/>y<sp/>DH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i=0;i&lt;MyExpParam-&gt;MyGPParam.FixPP.m_nData_Windows;i++)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//en<sp/>muestras(¿Por<sp/>qué<sp/>se<sp/>van<sp/>a<sp/>restar<sp/>muestras<sp/>en<sp/>decodificación?)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>restNSA<sp/>=<sp/>-int(restNSAkm/MyExpParam-&gt;MyGRCParam.Dyn_sfAcqDH[i]);</highlight><highlight class="comment">//numero<sp/>de<sp/>muestras<sp/>adquiridas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>restNSA+=<sp/>(restNSAkm==0)?0:1;</highlight><highlight class="comment">//será<sp/>cero.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam-&gt;MyGPParam.Dyn_sfDataH0[i]<sp/><sp/>=<sp/>MyExpParam-&gt;MyGRCParam.Dyn_sfAcqH0[i];</highlight><highlight class="comment">//el<sp/>valor<sp/>del<sp/>.racp<sp/>es<sp/>guardado<sp/>dentro<sp/>de<sp/>Dyn_sfDataH0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam-&gt;MyGPParam.Dyn_snDataNSA[i]<sp/>=<sp/>MyExpParam-&gt;MyGRCParam.Dyn_snAcqNSA[i]<sp/>+restNSA;</highlight><highlight class="comment">//Para<sp/>hallar<sp/>el<sp/>valor<sp/>de<sp/>Dyn_snDataNSA<sp/>se<sp/>resta<sp/>del<sp/>.racp<sp/>debido<sp/>a<sp/>la<sp/>decodificacion?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyExpParam-&gt;MyGPParam.Dyn_sfDataDH[i]<sp/><sp/>=<sp/>MyExpParam-&gt;MyGRCParam.Dyn_sfAcqDH[i];</highlight><highlight class="comment">//el<sp/>valor<sp/>del<sp/>.racp<sp/>es<sp/>guardado<sp/>dentro<sp/>de<sp/>Dyn_sfDataDH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Initialization<sp/>of<sp/>m_sCodeArray_char</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Nos<sp/>lleva<sp/>a<sp/>RdpToolsExcep<sp/>si<sp/>se<sp/>cumple<sp/>la<sp/>condición</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MyExpParam-&gt;MyGRCParam.Dyn_sfAcqDH[0]<sp/>&lt;=<sp/>0)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/><ref refid="classRdpToolsExcep" kindref="compound">RdpToolsExcep</ref>(<ref refid="RdpToolsBeta_8h_1a1a0d762fa518b7a4cca9bc3f7e9b6726" kindref="member">Acq_DH_Err</ref>,MyExpParam-&gt;MyGPParam.m_sBaseDirectory);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/RdpToolsBeta.h"/>
+  </compounddef>
+</doxygen>

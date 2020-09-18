@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_4bf5678b1a74f49d401dcba3bce47ba5" kind="dir">
+    <compoundname>ArgProcessor</compoundname>
+    <innerdir refid="dir_7d3bf389443e6c19a7262b44fef2310c">JarsControl</innerdir>
+    <innerfile refid="ArgProcessor_8h">ArgProcessor.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/"/>
+  </compounddef>
+</doxygen>

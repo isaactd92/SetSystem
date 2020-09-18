@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsp601__command" kind="class" language="C++" prot="public">
+    <compoundname>sp601_command</compoundname>
+    <includes refid="JarsControl_8h" local="no">JarsControl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsp601__command_1ab96dc6299f8ee6dd7bde84584ea72d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sp601_command::sp601_command</definition>
+        <argsstring>()</argsstring>
+        <name>sp601_command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="92" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="964" bodyend="965"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a4acdc1e7593b27a8831b0bea12e27aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sp601_command::~sp601_command</definition>
+        <argsstring>()</argsstring>
+        <name>~sp601_command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="93" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="967" bodyend="968"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a00e7747470750f26ba33b69b9a1b028b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sp601_command::init</definition>
+        <argsstring>(address host_address)</argsstring>
+        <name>init</name>
+        <param>
+          <type><ref refid="structaddress" kindref="compound">address</ref></type>
+          <declname>host_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="94" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="970" bodyend="1023"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a0f20108067e472db69a628ecb02e2c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ssize_t</type>
+        <definition>ssize_t sp601_command::receive</definition>
+        <argsstring>(char *buffer_rcv)</argsstring>
+        <name>receive</name>
+        <param>
+          <type>char *</type>
+          <declname>buffer_rcv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="95" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="1026" bodyend="1031"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a190c6be31617bd6b50fc7f4a451a56ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sp601_command::send</definition>
+        <argsstring>(uint8_t cmd, char code, const char *payload, size_t size_payload)</argsstring>
+        <name>send</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size_payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="96" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="1095" bodyend="1238"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="90" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="89" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classsp601__command_1a00e7747470750f26ba33b69b9a1b028b" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>init</name></member>
+      <member refid="classsp601__command_1a0f20108067e472db69a628ecb02e2c4a" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>receive</name></member>
+      <member refid="classsp601__command_1a190c6be31617bd6b50fc7f4a451a56ac" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>send</name></member>
+      <member refid="classsp601__command_1ab96dc6299f8ee6dd7bde84584ea72d5f" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>sp601_command</name></member>
+      <member refid="classsp601__command_1a4acdc1e7593b27a8831b0bea12e27aa5" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>~sp601_command</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

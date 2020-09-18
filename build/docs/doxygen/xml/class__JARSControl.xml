@@ -1,0 +1,800 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class__JARSControl" kind="class" language="C++" prot="public">
+    <compoundname>_JARSControl</compoundname>
+    <includes refid="JarsControl_8h" local="no">JarsControl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" prot="public" static="no" mutable="no">
+        <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> *</type>
+        <definition>ExpParameters* _JARSControl::MyExpParam</definition>
+        <argsstring></argsstring>
+        <name>MyExpParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="116" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="116" bodyend="-1"/>
+        <referencedby refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" compoundref="JarsControl_8h" startline="581" endline="593">jro_InitAcquisition</referencedby>
+        <referencedby refid="class__JARSControl_1a6627542a7073fc2a460bc8b5b380f937" compoundref="JarsControl_8h" startline="269" endline="275">jro_MatchParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a23d97fafb2a8484a913c9ae0cbf96b53" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _JARSControl::m_SizeofBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_SizeofBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="117" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1af22ac24cb398de0720ab962d79a8498f" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _JARSControl::m_AcqBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_AcqBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="118" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a83109c7d938a17dcd5344b8984489490" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _JARSControl::ptrFunc) (bool success)</definition>
+        <argsstring>)(bool success)</argsstring>
+        <name>ptrFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="120" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="120" bodyend="-1"/>
+        <referencedby refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" compoundref="JarsControl_8h" startline="888" endline="926">InternalCallback</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class__JARSControl_1af2c55c9ade0b313c614f01f381d7fc6e" prot="private" static="no" mutable="no">
+        <type><ref refid="classsp601__command" kindref="compound">sp601_command</ref> *</type>
+        <definition>sp601_command* _JARSControl::MySP601</definition>
+        <argsstring></argsstring>
+        <name>MySP601</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="133" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a2e519598b0f380cd1c167b0c441c8f21" prot="private" static="no" mutable="no">
+        <type>pthread_t</type>
+        <definition>pthread_t _JARSControl::_thread_rcv</definition>
+        <argsstring></argsstring>
+        <name>_thread_rcv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="134" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a5bb573744392a128014340ee4cbb9770" prot="private" static="no" mutable="no">
+        <type>pthread_t</type>
+        <definition>pthread_t _JARSControl::_thread_jars</definition>
+        <argsstring></argsstring>
+        <name>_thread_jars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="135" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a335294492af9a25a87cd9861e5c6b4ff" prot="private" static="no" mutable="no">
+        <type>pthread_t</type>
+        <definition>pthread_t _JARSControl::_thread_jars_rcv</definition>
+        <argsstring></argsstring>
+        <name>_thread_jars_rcv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="136" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a1a9e86a86685053d1628f7574561cf91" prot="private" static="no" mutable="no">
+        <type>pthread_t</type>
+        <definition>pthread_t _JARSControl::_thread_config</definition>
+        <argsstring></argsstring>
+        <name>_thread_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="137" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1ac1d0fcec75e87d34d558379c2dda1ba5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _JARSControl::VarSetSystem</definition>
+        <argsstring></argsstring>
+        <name>VarSetSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="138" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1af853f0f272eed0ca955df739651eb5a4" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t _JARSControl::m_nChannelsMask</definition>
+        <argsstring></argsstring>
+        <name>m_nChannelsMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="139" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a9f3ac037aec35c612eda889c95813cba" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t _JARSControl::m_nCardsMask</definition>
+        <argsstring></argsstring>
+        <name>m_nCardsMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="140" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a8a367362f9ac3b2d03c8d823ccce03d6" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t _JARSControl::m_nFilterCoeff[2047]</definition>
+        <argsstring>[2047]</argsstring>
+        <name>m_nFilterCoeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="141" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a01012691c14372f45f45089e47641086" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t _JARSControl::m_nCountCoeff</definition>
+        <argsstring></argsstring>
+        <name>m_nCountCoeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="142" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1ad7902609ce64c8c0be327e3a6c873b20" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _JARSControl::m_NumMarks</definition>
+        <argsstring></argsstring>
+        <name>m_NumMarks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="145" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1acd325d1f968db3a0e99e8e32ba926683" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _JARSControl::m_MarkRe</definition>
+        <argsstring></argsstring>
+        <name>m_MarkRe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="147" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a0f221ac2a023e06426eadc79f7f3abda" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _JARSControl::m_AcqNIBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_AcqNIBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="149" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a34788b66b29a6269737b84bc5addc4bf" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _JARSControl::m_AcqNIDoubleBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_AcqNIDoubleBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="151" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a63513f01960f9ee3368ffa762016f675" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _JARSControl::payload[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>payload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="153" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class__JARSControl_1a6e97ca0b4324bc1af443e36b28bb1d3e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::InternalRcv</definition>
+        <argsstring>()</argsstring>
+        <name>InternalRcv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="106" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="757" bodyend="793"/>
+        <references refid="JicaHeader_8h_1acfa1e2b991d398ea406cdd6198bb2ee6">context</references>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::InternalThreadEntry</definition>
+        <argsstring>()</argsstring>
+        <name>InternalThreadEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>a partir del SEGUNDO perfil guarda el dato adquirido sin cabecera (quita toda la cabecera . incluso la marca) </para>        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="107" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="805" bodyend="879"/>
+        <references refid="JicaHeader_8h_1acfa1e2b991d398ea406cdd6198bb2ee6">context</references>
+        <references refid="struct__GlobRCParam_1a3266169525e2a7d77be441ba398a105a" compoundref="ExperimentConstants_8h" startline="192">_GlobRCParam::FixRCP</references>
+        <references refid="struct__RadarControllerParam_1a11c44c04097c6e7a89f0f4c1c6b92f2d" compoundref="ExperimentConstants_8h" startline="142">_RadarControllerParam::m_nNTX</references>
+        <references refid="struct__GlobPParam_1a0abce01487be8839d4e3ce356246eb51" compoundref="ExperimentConstants_8h" startline="180">_GlobPParam::m_nProfilesperBlock</references>
+        <references refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" compoundref="ExperimentParameters_8h" startline="25">ExpParameters::MyGPParam</references>
+        <references refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" compoundref="ExperimentParameters_8h" startline="26">ExpParameters::MyGRCParam</references>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::InternalCallback</definition>
+        <argsstring>()</argsstring>
+        <name>InternalCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="108" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="888" bodyend="926"/>
+        <references refid="JicaHeader_8h_1acfa1e2b991d398ea406cdd6198bb2ee6">context</references>
+        <references refid="struct__GlobRCParam_1a3266169525e2a7d77be441ba398a105a" compoundref="ExperimentConstants_8h" startline="192">_GlobRCParam::FixRCP</references>
+        <references refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" compoundref="ExperimentConstants_8h" startline="128">_SystemParam::m_nChannels</references>
+        <references refid="struct__RadarControllerParam_1a11c44c04097c6e7a89f0f4c1c6b92f2d" compoundref="ExperimentConstants_8h" startline="142">_RadarControllerParam::m_nNTX</references>
+        <references refid="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" compoundref="ExperimentConstants_8h" startline="127">_SystemParam::m_nProfiles</references>
+        <references refid="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" compoundref="ExperimentConstants_8h" startline="126">_SystemParam::m_nSamples</references>
+        <references refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" compoundref="ExperimentParameters_8h" startline="26">ExpParameters::MyGRCParam</references>
+        <references refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" compoundref="ExperimentParameters_8h" startline="24">ExpParameters::MySystemParam</references>
+        <references refid="class__JARSControl_1a83109c7d938a17dcd5344b8984489490" compoundref="JarsControl_8h" startline="120">ptrFunc</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__JARSControl_1a8a5f2a09daffa77a92e351be46f607a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_JARSControl::_JARSControl</definition>
+        <argsstring>()</argsstring>
+        <name>_JARSControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="113" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="243" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a3373fa4a920c76cf6d66d1668d7b389c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_JARSControl::~_JARSControl</definition>
+        <argsstring>()</argsstring>
+        <name>~_JARSControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="114" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="258" bodyend="264"/>
+        <references refid="class__JARSControl_1a3a32dd8bf71407e2657267980476ca50" compoundref="JarsControl_8h" startline="686" endline="697">jro_StopAcquisition</references>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a6627542a7073fc2a460bc8b5b380f937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::jro_MatchParameters</definition>
+        <argsstring>(ExpParameters *ExpParam)</argsstring>
+        <name>jro_MatchParameters</name>
+        <param>
+          <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> *</type>
+          <declname>ExpParam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="123" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="269" bodyend="275"/>
+        <references refid="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" compoundref="JarsControl_8h" startline="116">MyExpParam</references>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::jro_AssignMemory</definition>
+        <argsstring>(MemoryManager *MemManager, void(*ptrClientFunc)(bool sucess), address host_address)</argsstring>
+        <name>jro_AssignMemory</name>
+        <param>
+          <type><ref refid="classMemoryManager" kindref="compound">MemoryManager</ref> *</type>
+          <declname>MemManager</declname>
+        </param>
+        <param>
+          <type>void(*)(bool sucess)</type>
+          <declname>ptrClientFunc</declname>
+        </param>
+        <param>
+          <type><ref refid="structaddress" kindref="compound">address</ref></type>
+          <declname>host_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="124" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="279" bodyend="291"/>
+        <references refid="ExperimentConstants_8h_1a764ae24ad191463aa0dc64ea1e105d13" compoundref="ExperimentConstants_8h" startline="108">BY_CMD</references>
+        <references refid="ExperimentConstants_8h_1a45ab7a7b703b2e5615905682f51b9e1d" compoundref="ExperimentConstants_8h" startline="109">BY_DATA</references>
+        <references refid="ExperimentConstants_8h_1ad727a3b9d581739d2e5e88b1716ee1dd" compoundref="ExperimentConstants_8h" startline="97">CHIP_ALL</references>
+        <references refid="ExperimentConstants_8h_1afec22c32aec0b1d3972cdaba0d0ccec7" compoundref="ExperimentConstants_8h" startline="98">CHIP_COMAND</references>
+        <references refid="struct__GlobPParam_1ac28bdb8b27ff1dc65f63569f004497f2" compoundref="ExperimentConstants_8h" startline="174">_GlobPParam::Dyn_nCardSequence</references>
+        <references refid="JarsControl_8h_1ab8923675701bbbb7f51c4e68fac5e588" compoundref="JarsControl_8h" startline="74">ELECTION_RXD</references>
+        <references refid="JarsControl_8h_1acdbbef5f7b2938fa8a308d3a7237723e" compoundref="JarsControl_8h" startline="1282" endline="1286">intToBytes</references>
+        <references refid="classMemoryManager_1acdf947edccf307a07382da6ee435d214" compoundref="MemoryManager_8h" startline="21">MemoryManager::m_iSizeNIBuffer</references>
+        <references refid="classMemoryManager_1a1ddfeb3818503fad3b94d8b0fdb1a1fd" compoundref="MemoryManager_8h" startline="16">MemoryManager::m_mAcqBuffer</references>
+        <references refid="struct__GlobPParam_1a4e4bde5e3d036d9e786677cb2000d74a" compoundref="ExperimentConstants_8h" startline="181">_GlobPParam::m_nCards</references>
+        <references refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" compoundref="ExperimentConstants_8h" startline="128">_SystemParam::m_nChannels</references>
+        <references refid="classMemoryManager_1af53d94ce1836a26f87969064c38900a2" compoundref="MemoryManager_8h" startline="22">MemoryManager::m_nNIBuffer</references>
+        <references refid="classMemoryManager_1a06e03642b89e7f6aa2745efa87e8af7f" compoundref="MemoryManager_8h" startline="23">MemoryManager::m_nNIDoubleBuffer</references>
+        <references refid="struct__SystemParam_1abb9ba419e2dd0853d6d43e1a32f3de7a" compoundref="ExperimentConstants_8h" startline="135">_SystemParam::m_nNumberOfChannel</references>
+        <references refid="struct__SystemParam_1aa49917e56c5325e41bbb7430e092cf46" compoundref="ExperimentConstants_8h" startline="133">_SystemParam::m_sFilterPath</references>
+        <references refid="JarsControl_8h_1a52e278dd9e601652e8ab11b70c53ef6e" compoundref="JarsControl_8h" startline="73">MODE_OPER</references>
+        <references refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" compoundref="ExperimentParameters_8h" startline="25">ExpParameters::MyGPParam</references>
+        <references refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" compoundref="ExperimentParameters_8h" startline="24">ExpParameters::MySystemParam</references>
+        <references refid="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" compoundref="ExperimentParameters_8h" startline="34">ExpParameters::OwnWindow</references>
+        <references refid="JarsControl_8h_1a063240a0c681e13158e249f55ac4b750" compoundref="JarsControl_8h" startline="75">POWER_RXD</references>
+        <references refid="JarsControl_8h_1aefde68a634d66b7039aa56de3fd5301b" compoundref="JarsControl_8h" startline="76">PROG_RXD</references>
+        <references refid="JarsControl_8h_1a1aa9678f48f9b9661062c9246e64993a" compoundref="JarsControl_8h" startline="72">RST_CTRL</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a685f467976dffd4af61e2c198bba3e07" compoundref="JarsControl_8h" startline="62">SEND_COMMAND</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a28b6b130f7a5b8cdbee96bb17ef151af" compoundref="JarsControl_8h" startline="62">SEND_FILTER</references>
+        <references refid="ExperimentConstants_8h_1a722e5785aae222e3f5f8f1e48db2e1fa" compoundref="ExperimentConstants_8h" startline="32">SYNCHRO</references>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::jro_InitAcquisition</definition>
+        <argsstring>()</argsstring>
+        <name>jro_InitAcquisition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="125" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="581" bodyend="593"/>
+        <references refid="ExperimentConstants_8h_1a764ae24ad191463aa0dc64ea1e105d13" compoundref="ExperimentConstants_8h" startline="108">BY_CMD</references>
+        <references refid="ExperimentConstants_8h_1ad727a3b9d581739d2e5e88b1716ee1dd" compoundref="ExperimentConstants_8h" startline="97">CHIP_ALL</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a55636b09cf88b31facd828042757e8cd" compoundref="JarsControl_8h" startline="62">DATA_LOOPS</references>
+        <references refid="struct__GlobRCParam_1abc125c5fd3f6736a5df976d249f7ae42" compoundref="ExperimentConstants_8h" startline="194">_GlobRCParam::Dyn_sfAcqDH</references>
+        <references refid="struct__GlobRCParam_1a75b52d816c427cacd56aa202274565cf" compoundref="ExperimentConstants_8h" startline="200">_GlobRCParam::Dyn_snAcqNSA</references>
+        <references refid="JarsControl_8h_1ad7e5e3b2ac85d92fe9b81bac2368ca02" compoundref="JarsControl_8h" startline="77">ENABLE_TRANSF</references>
+        <references refid="struct__GlobRCParam_1a3266169525e2a7d77be441ba398a105a" compoundref="ExperimentConstants_8h" startline="192">_GlobRCParam::FixRCP</references>
+        <references refid="class__JARSControl_1a7ee41ba1eaf9a77999e55fcda1660cf2" compoundref="JarsControl_8h" startline="883" endline="885">InternalCallbackFunc</references>
+        <references refid="class__JARSControl_1a643f89d471e0690716b0aae9cb39b10f" compoundref="JarsControl_8h" startline="748" endline="750">InternalRcvFunc</references>
+        <references refid="class__JARSControl_1a6c19d395de3d648bc66f2b7f886fe10c" compoundref="JarsControl_8h" startline="797" endline="799">InternalThreadEntryFunc</references>
+        <references refid="JarsControl_8h_1acdbbef5f7b2938fa8a308d3a7237723e" compoundref="JarsControl_8h" startline="1282" endline="1286">intToBytes</references>
+        <references refid="struct__RadarControllerParam_1ae8ac79e57158371f6524e1d160b0d96e" compoundref="ExperimentConstants_8h" startline="143">_RadarControllerParam::m_fIPP</references>
+        <references refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" compoundref="ExperimentConstants_8h" startline="128">_SystemParam::m_nChannels</references>
+        <references refid="struct__RadarControllerParam_1a11c44c04097c6e7a89f0f4c1c6b92f2d" compoundref="ExperimentConstants_8h" startline="142">_RadarControllerParam::m_nNTX</references>
+        <references refid="struct__GlobPParam_1a0abce01487be8839d4e3ce356246eb51" compoundref="ExperimentConstants_8h" startline="180">_GlobPParam::m_nProfilesperBlock</references>
+        <references refid="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" compoundref="JarsControl_8h" startline="116">MyExpParam</references>
+        <references refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" compoundref="ExperimentParameters_8h" startline="25">ExpParameters::MyGPParam</references>
+        <references refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" compoundref="ExperimentParameters_8h" startline="26">ExpParameters::MyGRCParam</references>
+        <references refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" compoundref="ExperimentParameters_8h" startline="24">ExpParameters::MySystemParam</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a685f467976dffd4af61e2c198bba3e07" compoundref="JarsControl_8h" startline="62">SEND_COMMAND</references>
+        <references refid="ExperimentConstants_8h_1a722e5785aae222e3f5f8f1e48db2e1fa" compoundref="ExperimentConstants_8h" startline="32">SYNCHRO</references>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a3a32dd8bf71407e2657267980476ca50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::jro_StopAcquisition</definition>
+        <argsstring>()</argsstring>
+        <name>jro_StopAcquisition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="126" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="686" bodyend="697"/>
+        <references refid="ExperimentConstants_8h_1a764ae24ad191463aa0dc64ea1e105d13" compoundref="ExperimentConstants_8h" startline="108">BY_CMD</references>
+        <references refid="ExperimentConstants_8h_1ad727a3b9d581739d2e5e88b1716ee1dd" compoundref="ExperimentConstants_8h" startline="97">CHIP_ALL</references>
+        <references refid="JarsControl_8h_1aacac2365f297d20c92dac6c32a87c6a3" compoundref="JarsControl_8h" startline="78">DISABLE_TRANSF</references>
+        <references refid="JarsControl_8h_1acdbbef5f7b2938fa8a308d3a7237723e" compoundref="JarsControl_8h" startline="1282" endline="1286">intToBytes</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a7316843e88740cd819c6427a7f833df6" compoundref="JarsControl_8h" startline="62">NOOP</references>
+        <references refid="JarsControl_8h_1a5a3ca937b4f7181095b415041ac2a152a685f467976dffd4af61e2c198bba3e07" compoundref="JarsControl_8h" startline="62">SEND_COMMAND</references>
+        <references refid="ExperimentConstants_8h_1a722e5785aae222e3f5f8f1e48db2e1fa" compoundref="ExperimentConstants_8h" startline="32">SYNCHRO</references>
+        <referencedby refid="class__JARSControl_1a3373fa4a920c76cf6d66d1668d7b389c" compoundref="JarsControl_8h" startline="258" endline="264">~_JARSControl</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class__JARSControl_1a643f89d471e0690716b0aae9cb39b10f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * _JARSControl::InternalRcvFunc</definition>
+        <argsstring>(void *This)</argsstring>
+        <name>InternalRcvFunc</name>
+        <param>
+          <type>void *</type>
+          <declname>This</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="127" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="748" bodyend="750"/>
+        <referencedby refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" compoundref="JarsControl_8h" startline="581" endline="593">jro_InitAcquisition</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a6c19d395de3d648bc66f2b7f886fe10c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * _JARSControl::InternalThreadEntryFunc</definition>
+        <argsstring>(void *This)</argsstring>
+        <name>InternalThreadEntryFunc</name>
+        <param>
+          <type>void *</type>
+          <declname>This</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="128" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="797" bodyend="799"/>
+        <referencedby refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" compoundref="JarsControl_8h" startline="581" endline="593">jro_InitAcquisition</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a7ee41ba1eaf9a77999e55fcda1660cf2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * _JARSControl::InternalCallbackFunc</definition>
+        <argsstring>(void *This)</argsstring>
+        <name>InternalCallbackFunc</name>
+        <param>
+          <type>void *</type>
+          <declname>This</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="129" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="883" bodyend="885"/>
+        <referencedby refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" compoundref="JarsControl_8h" startline="581" endline="593">jro_InitAcquisition</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class__JARSControl_1a1f27f7a3c63882d8856f53581b13a834" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::RemoveMark</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveMark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="155" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="929" bodyend="944"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1aa65814986c93ce5d420b4287f7eb8238" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::RESET_CTRL_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>RESET_CTRL_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="157" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="444" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a56a2da34d863317fc6e7df9cdf7d4484" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::MODE_OPER_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>MODE_OPER_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="158" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="468" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a38a9532a2960f085bcea1050999523e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::SELECT_RXD_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>SELECT_RXD_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="159" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="491" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1aebc1443f83beb9a2e849ba264c4462fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::PW_RXD_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>PW_RXD_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="160" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="514" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a169aad7ff69b10275117a35a830c3124" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::PROG_RXD_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>PROG_RXD_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="161" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="537" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a3564fc23793b0c34cb5dfcfcbd4f3f54" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::HAB_TRANS_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>HAB_TRANS_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="162" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="597" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a5ec74c0455a907b293a4725e195980f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::DESHAB_TRANS_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>DESHAB_TRANS_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="163" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="703" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a164e55b01d5707b8899812e04b5f5660" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::LoadMask</definition>
+        <argsstring>()</argsstring>
+        <name>LoadMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="165" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="344" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a5e6f3a93bd4ff115145090ed1e93cb16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::ConfigDataTransfer</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigDataTransfer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="166" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="618" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a27b6de0bd322535d498d02697f157eca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::SetSystem</definition>
+        <argsstring>(address host_address)</argsstring>
+        <name>SetSystem</name>
+        <param>
+          <type><ref refid="structaddress" kindref="compound">address</ref></type>
+          <declname>host_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="167" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="297" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a8401e05389d448f2fffc0f888d5b34e9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::LoadFilter</definition>
+        <argsstring>()</argsstring>
+        <name>LoadFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="168" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="378" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1ae6c8bc3f7eed8295cbef56394acad44d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::WriteFilter</definition>
+        <argsstring>()</argsstring>
+        <name>WriteFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="169" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="560" bodyend="578"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>_GlobRCParam</label>
+        <link refid="struct__GlobRCParam"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>FixRCP</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>_JARSControl</label>
+        <link refid="class__JARSControl"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>MyExpParam</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>_RadarControllerParam</label>
+        <link refid="struct__RadarControllerParam"/>
+      </node>
+      <node id="11">
+        <label>_GlobPParam</label>
+        <link refid="struct__GlobPParam"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>FixPP</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>_ProcessParam</label>
+        <link refid="struct__ProcessParam"/>
+      </node>
+      <node id="15">
+        <label>_SystemParam</label>
+        <link refid="struct__SystemParam"/>
+      </node>
+      <node id="10">
+        <label>ExpParameters</label>
+        <link refid="classExpParameters"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>MyGPParam</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>MyGRCParam</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>MySystemParam</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" line="103" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/JarsControl.h" bodystart="102" bodyend="171"/>
+    <listofallmembers>
+      <member refid="class__JARSControl_1a8a5f2a09daffa77a92e351be46f607a2" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>_JARSControl</name></member>
+      <member refid="class__JARSControl_1a1a9e86a86685053d1628f7574561cf91" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>_thread_config</name></member>
+      <member refid="class__JARSControl_1a5bb573744392a128014340ee4cbb9770" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>_thread_jars</name></member>
+      <member refid="class__JARSControl_1a335294492af9a25a87cd9861e5c6b4ff" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>_thread_jars_rcv</name></member>
+      <member refid="class__JARSControl_1a2e519598b0f380cd1c167b0c441c8f21" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>_thread_rcv</name></member>
+      <member refid="class__JARSControl_1a5e6f3a93bd4ff115145090ed1e93cb16" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>ConfigDataTransfer</name></member>
+      <member refid="class__JARSControl_1a5ec74c0455a907b293a4725e195980f0" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>DESHAB_TRANS_COMMAND</name></member>
+      <member refid="class__JARSControl_1a3564fc23793b0c34cb5dfcfcbd4f3f54" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>HAB_TRANS_COMMAND</name></member>
+      <member refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" prot="protected" virt="non-virtual"><scope>_JARSControl</scope><name>InternalCallback</name></member>
+      <member refid="class__JARSControl_1a7ee41ba1eaf9a77999e55fcda1660cf2" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>InternalCallbackFunc</name></member>
+      <member refid="class__JARSControl_1a6e97ca0b4324bc1af443e36b28bb1d3e" prot="protected" virt="non-virtual"><scope>_JARSControl</scope><name>InternalRcv</name></member>
+      <member refid="class__JARSControl_1a643f89d471e0690716b0aae9cb39b10f" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>InternalRcvFunc</name></member>
+      <member refid="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" prot="protected" virt="non-virtual"><scope>_JARSControl</scope><name>InternalThreadEntry</name></member>
+      <member refid="class__JARSControl_1a6c19d395de3d648bc66f2b7f886fe10c" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>InternalThreadEntryFunc</name></member>
+      <member refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>jro_AssignMemory</name></member>
+      <member refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>jro_InitAcquisition</name></member>
+      <member refid="class__JARSControl_1a6627542a7073fc2a460bc8b5b380f937" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>jro_MatchParameters</name></member>
+      <member refid="class__JARSControl_1a3a32dd8bf71407e2657267980476ca50" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>jro_StopAcquisition</name></member>
+      <member refid="class__JARSControl_1a8401e05389d448f2fffc0f888d5b34e9" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>LoadFilter</name></member>
+      <member refid="class__JARSControl_1a164e55b01d5707b8899812e04b5f5660" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>LoadMask</name></member>
+      <member refid="class__JARSControl_1af22ac24cb398de0720ab962d79a8498f" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>m_AcqBuffer</name></member>
+      <member refid="class__JARSControl_1a0f221ac2a023e06426eadc79f7f3abda" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_AcqNIBuffer</name></member>
+      <member refid="class__JARSControl_1a34788b66b29a6269737b84bc5addc4bf" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_AcqNIDoubleBuffer</name></member>
+      <member refid="class__JARSControl_1acd325d1f968db3a0e99e8e32ba926683" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_MarkRe</name></member>
+      <member refid="class__JARSControl_1a9f3ac037aec35c612eda889c95813cba" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_nCardsMask</name></member>
+      <member refid="class__JARSControl_1af853f0f272eed0ca955df739651eb5a4" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_nChannelsMask</name></member>
+      <member refid="class__JARSControl_1a01012691c14372f45f45089e47641086" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_nCountCoeff</name></member>
+      <member refid="class__JARSControl_1a8a367362f9ac3b2d03c8d823ccce03d6" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_nFilterCoeff</name></member>
+      <member refid="class__JARSControl_1ad7902609ce64c8c0be327e3a6c873b20" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_NumMarks</name></member>
+      <member refid="class__JARSControl_1a23d97fafb2a8484a913c9ae0cbf96b53" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>m_SizeofBuffer</name></member>
+      <member refid="class__JARSControl_1a56a2da34d863317fc6e7df9cdf7d4484" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>MODE_OPER_COMMAND</name></member>
+      <member refid="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>MyExpParam</name></member>
+      <member refid="class__JARSControl_1af2c55c9ade0b313c614f01f381d7fc6e" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>MySP601</name></member>
+      <member refid="class__JARSControl_1a63513f01960f9ee3368ffa762016f675" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>payload</name></member>
+      <member refid="class__JARSControl_1a169aad7ff69b10275117a35a830c3124" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>PROG_RXD_COMMAND</name></member>
+      <member refid="class__JARSControl_1a83109c7d938a17dcd5344b8984489490" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>ptrFunc</name></member>
+      <member refid="class__JARSControl_1aebc1443f83beb9a2e849ba264c4462fa" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>PW_RXD_COMMAND</name></member>
+      <member refid="class__JARSControl_1a1f27f7a3c63882d8856f53581b13a834" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>RemoveMark</name></member>
+      <member refid="class__JARSControl_1aa65814986c93ce5d420b4287f7eb8238" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>RESET_CTRL_COMMAND</name></member>
+      <member refid="class__JARSControl_1a38a9532a2960f085bcea1050999523e4" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>SELECT_RXD_COMMAND</name></member>
+      <member refid="class__JARSControl_1a27b6de0bd322535d498d02697f157eca" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>SetSystem</name></member>
+      <member refid="class__JARSControl_1ac1d0fcec75e87d34d558379c2dda1ba5" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>VarSetSystem</name></member>
+      <member refid="class__JARSControl_1ae6c8bc3f7eed8295cbef56394acad44d" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>WriteFilter</name></member>
+      <member refid="class__JARSControl_1a3373fa4a920c76cf6d66d1668d7b389c" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>~_JARSControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

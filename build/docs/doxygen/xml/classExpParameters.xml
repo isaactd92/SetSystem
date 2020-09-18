@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classExpParameters" kind="class" language="C++" prot="public">
+    <compoundname>ExpParameters</compoundname>
+    <includes refid="ExperimentParameters_8h" local="no">ExperimentParameters.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classExpParameters_1a3b97a95ea010ca20056bbc9f6807fc00" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* ExpParameters::PathExperiment</definition>
+        <argsstring></argsstring>
+        <name>PathExperiment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="19" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1ad295cabf051467354884f7dc952aced6" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a0b5183a4650861f8e5abb48ac34052c1" kindref="member">SystemParam</ref></type>
+        <definition>SystemParam ExpParameters::MySystemParam</definition>
+        <argsstring></argsstring>
+        <name>MySystemParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="24" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classJicaHeader_1a5b585e14f2c611b0eef14bd1d87123a5" compoundref="JicaHeader_8h" startline="89" endline="250">JicaHeader::GetExpParameters</referencedby>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">Initialize</referencedby>
+        <referencedby refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" compoundref="JarsControl_8h" startline="888" endline="926">_JARSControl::InternalCallback</referencedby>
+        <referencedby refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" compoundref="JarsControl_8h" startline="279" endline="291">_JARSControl::jro_AssignMemory</referencedby>
+        <referencedby refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" compoundref="JarsControl_8h" startline="581" endline="593">_JARSControl::jro_InitAcquisition</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a60276f34cbedbbfa87aee12464e317d9" kindref="member">GlobPParam</ref></type>
+        <definition>GlobPParam ExpParameters::MyGPParam</definition>
+        <argsstring></argsstring>
+        <name>MyGPParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="25" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classJicaHeader_1a5b585e14f2c611b0eef14bd1d87123a5" compoundref="JicaHeader_8h" startline="89" endline="250">JicaHeader::GetExpParameters</referencedby>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">Initialize</referencedby>
+        <referencedby refid="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" compoundref="JarsControl_8h" startline="805" endline="879">_JARSControl::InternalThreadEntry</referencedby>
+        <referencedby refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" compoundref="JarsControl_8h" startline="279" endline="291">_JARSControl::jro_AssignMemory</referencedby>
+        <referencedby refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" compoundref="JarsControl_8h" startline="581" endline="593">_JARSControl::jro_InitAcquisition</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a4f250a03306179038d679426fed637b5" kindref="member">GlobRCParam</ref></type>
+        <definition>GlobRCParam ExpParameters::MyGRCParam</definition>
+        <argsstring></argsstring>
+        <name>MyGRCParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="26" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classJicaHeader_1a5b585e14f2c611b0eef14bd1d87123a5" compoundref="JicaHeader_8h" startline="89" endline="250">JicaHeader::GetExpParameters</referencedby>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">Initialize</referencedby>
+        <referencedby refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" compoundref="JarsControl_8h" startline="888" endline="926">_JARSControl::InternalCallback</referencedby>
+        <referencedby refid="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" compoundref="JarsControl_8h" startline="805" endline="879">_JARSControl::InternalThreadEntry</referencedby>
+        <referencedby refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" compoundref="JarsControl_8h" startline="581" endline="593">_JARSControl::jro_InitAcquisition</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::SaveData</definition>
+        <argsstring></argsstring>
+        <name>SaveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="32" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">Initialize</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1ac72964b04dc924d0916d94435407715d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::FlagSIR</definition>
+        <argsstring></argsstring>
+        <name>FlagSIR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="33" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::OwnWindow</definition>
+        <argsstring></argsstring>
+        <name>OwnWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="34" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" compoundref="JarsControl_8h" startline="279" endline="291">_JARSControl::jro_AssignMemory</referencedby>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ReadRACPFileParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a04868e35f3f05bfa80d2a2e6e382ca68" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::EnableJARS</definition>
+        <argsstring></argsstring>
+        <name>EnableJARS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="36" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1af62cf5ce717f2c5a8529ca7e709e9715" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::EnableCooperSimulation</definition>
+        <argsstring></argsstring>
+        <name>EnableCooperSimulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="37" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a94423e2a632a70b5565f462b31cf0451" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* ExpParameters::RacpFileName</definition>
+        <argsstring></argsstring>
+        <name>RacpFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="39" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" compoundref="ExperimentParameters_8h" startline="106" endline="321">ReadRACPFileParameters</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classExpParameters_1a8fd4661f2383af87ceefc9a11faa16c9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadRCParameters</definition>
+        <argsstring>(FILE *RACPFile, char *StrTemp)</argsstring>
+        <name>ReadRCParameters</name>
+        <param>
+          <type>FILE *</type>
+          <declname>RACPFile</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>StrTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="13" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="339" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1aeaeef1d041a31165e6bd8c25c58f0857" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadSysParameters</definition>
+        <argsstring>(FILE *RACPFile, char *StrTemp)</argsstring>
+        <name>ReadSysParameters</name>
+        <param>
+          <type>FILE *</type>
+          <declname>RACPFile</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>StrTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="14" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="526" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1a56fab265e4ce41149f2042cc8cf97ec6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadProcessParameters</definition>
+        <argsstring>(FILE *RACPFile, char *StrTemp)</argsstring>
+        <name>ReadProcessParameters</name>
+        <param>
+          <type>FILE *</type>
+          <declname>RACPFile</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>StrTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="15" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="561" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1af6198303a773f95fc569bd8d29173c53" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadJARSParameters</definition>
+        <argsstring>(FILE *RACPFile, char *StrTemp)</argsstring>
+        <name>ReadJARSParameters</name>
+        <param>
+          <type>FILE *</type>
+          <declname>RACPFile</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>StrTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="16" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="745" bodyend="789"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1a60fc5c065078a761a2442f30130ad9aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * ExpParameters::FindValue</definition>
+        <argsstring>(char *MyCad)</argsstring>
+        <name>FindValue</name>
+        <param>
+          <type>char *</type>
+          <declname>MyCad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="17" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="326" bodyend="335"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classExpParameters_1aded6d8c3b1bce0f9c25d0d54f38c86d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ExpParameters::ExpParameters</definition>
+        <argsstring>()</argsstring>
+        <name>ExpParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="20" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="45" bodyend="48"/>
+        <references refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" compoundref="ExperimentParameters_8h" startline="56" endline="103">Initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExpParameters::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="21" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="56" bodyend="103"/>
+        <references refid="struct__GlobPParam_1a693efaed127aba9634e79fa2d3be69b6" compoundref="ExperimentConstants_8h" startline="171">_GlobPParam::bCreateDayDir</references>
+        <references refid="struct__GlobPParam_1a3845b5041fa3d0721ec7561ac067b4ac" compoundref="ExperimentConstants_8h" startline="172">_GlobPParam::bNameInDirectory</references>
+        <references refid="struct__GlobRCParam_1abc125c5fd3f6736a5df976d249f7ae42" compoundref="ExperimentConstants_8h" startline="194">_GlobRCParam::Dyn_sfAcqDH</references>
+        <references refid="struct__GlobRCParam_1a8b244f458d9be125672a50fe93be9a33" compoundref="ExperimentConstants_8h" startline="193">_GlobRCParam::Dyn_sfAcqH0</references>
+        <references refid="struct__GlobPParam_1ade3106de6332e22811a749cb392f757d" compoundref="ExperimentConstants_8h" startline="179">_GlobPParam::Dyn_sfDataDH</references>
+        <references refid="struct__GlobPParam_1acb17955b429ff620f32650c17e75378d" compoundref="ExperimentConstants_8h" startline="178">_GlobPParam::Dyn_sfDataH0</references>
+        <references refid="struct__GlobRCParam_1a75b52d816c427cacd56aa202274565cf" compoundref="ExperimentConstants_8h" startline="200">_GlobRCParam::Dyn_snAcqNSA</references>
+        <references refid="struct__GlobPParam_1a5dba9ea228db92a1ceecf0dd1a07a801" compoundref="ExperimentConstants_8h" startline="187">_GlobPParam::Dyn_snDataNSA</references>
+        <references refid="ExperimentConstants_8h_1a60b85b10347a8a481986907c6542fedc" compoundref="ExperimentConstants_8h" startline="25">EXP_RAWDATA</references>
+        <references refid="struct__GlobPParam_1ac78c669920bf569e8a7d00554d6f5848" compoundref="ExperimentConstants_8h" startline="170">_GlobPParam::FixPP</references>
+        <references refid="struct__GlobRCParam_1a3266169525e2a7d77be441ba398a105a" compoundref="ExperimentConstants_8h" startline="192">_GlobRCParam::FixRCP</references>
+        <references refid="ExperimentConstants_8h_1ae1c077a80112c5e2f3785a68d522130b" compoundref="ExperimentConstants_8h" startline="66">FLAG_DATATYPE_SHORT</references>
+        <references refid="struct__GlobPParam_1a3e2167701b356ea0c4ff1203ca225b42" compoundref="ExperimentConstants_8h" startline="173">_GlobPParam::m_bBeginOnStart</references>
+        <references refid="struct__RadarControllerParam_1a6964e5cce298dae4557429884b89cae9" compoundref="ExperimentConstants_8h" startline="150">_RadarControllerParam::m_fCLOCK</references>
+        <references refid="struct__RadarControllerParam_1ae8ac79e57158371f6524e1d160b0d96e" compoundref="ExperimentConstants_8h" startline="143">_RadarControllerParam::m_fIPP</references>
+        <references refid="struct__RadarControllerParam_1a78c97c86923c5e6d1dffeb4146d186c0" compoundref="ExperimentConstants_8h" startline="144">_RadarControllerParam::m_fTXA</references>
+        <references refid="struct__RadarControllerParam_1a2d2f7e3f9185df7b0c1e6f91a5a419eb" compoundref="ExperimentConstants_8h" startline="145">_RadarControllerParam::m_fTXB</references>
+        <references refid="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" compoundref="ExperimentConstants_8h" startline="129">_SystemParam::m_nADCResolution</references>
+        <references refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" compoundref="ExperimentConstants_8h" startline="128">_SystemParam::m_nChannels</references>
+        <references refid="struct__ProcessParam_1a8eb0a657e8fbb2e31201eeb60749c4cc" compoundref="ExperimentConstants_8h" startline="163">_ProcessParam::m_nData_Windows</references>
+        <references refid="struct__ProcessParam_1a15138e2f5122880978dbe9558f583256" compoundref="ExperimentConstants_8h" startline="162">_ProcessParam::m_nDataBlocksperFile</references>
+        <references refid="struct__RadarControllerParam_1aa00899d7fbef313184dae5f7d14aed9b" compoundref="ExperimentConstants_8h" startline="141">_RadarControllerParam::m_nEspType</references>
+        <references refid="struct__ProcessParam_1ae79399a4449f9bbf16922f785e4b89fc" compoundref="ExperimentConstants_8h" startline="160">_ProcessParam::m_nExperimentType</references>
+        <references refid="struct__RadarControllerParam_1a775a6518abf0f77bdf394be52b17213e" compoundref="ExperimentConstants_8h" startline="149">_RadarControllerParam::m_nLine5_Function</references>
+        <references refid="struct__RadarControllerParam_1a5dbe6442aad203e2868695b437e975a4" compoundref="ExperimentConstants_8h" startline="148">_RadarControllerParam::m_nLine6_Function</references>
+        <references refid="struct__RadarControllerParam_1a11c44c04097c6e7a89f0f4c1c6b92f2d" compoundref="ExperimentConstants_8h" startline="142">_RadarControllerParam::m_nNTX</references>
+        <references refid="struct__RadarControllerParam_1ab5bcaafc644ccb694fc7b1eb5c062e02" compoundref="ExperimentConstants_8h" startline="147">_RadarControllerParam::m_nNum_Taus</references>
+        <references refid="struct__RadarControllerParam_1a9198b8907f08cc14f8bc743d2b9dabe3" compoundref="ExperimentConstants_8h" startline="146">_RadarControllerParam::m_nNum_Windows</references>
+        <references refid="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" compoundref="ExperimentConstants_8h" startline="130">_SystemParam::m_nPCIDIOBusWidth</references>
+        <references refid="struct__RadarControllerParam_1a73323fd64632ade97d13936e049ad441" compoundref="ExperimentConstants_8h" startline="152">_RadarControllerParam::m_nPrePulseAfter</references>
+        <references refid="struct__RadarControllerParam_1adc11ae9a664ffa6270f82800da70703c" compoundref="ExperimentConstants_8h" startline="151">_RadarControllerParam::m_nPrePulseBefore</references>
+        <references refid="struct__ProcessParam_1a46a10ad0dd1d8287b781775cc1f05224" compoundref="ExperimentConstants_8h" startline="164">_ProcessParam::m_nProcessFlags</references>
+        <references refid="struct__GlobPParam_1ac7e32c61d064ce3f42f307129ae11762" compoundref="ExperimentConstants_8h" startline="183">_GlobPParam::m_nProcessWindows</references>
+        <references refid="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" compoundref="ExperimentConstants_8h" startline="127">_SystemParam::m_nProfiles</references>
+        <references refid="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" compoundref="ExperimentConstants_8h" startline="126">_SystemParam::m_nSamples</references>
+        <references refid="struct__ProcessParam_1a514ea180d2542f6d36b5f9ecbaa06e08" compoundref="ExperimentConstants_8h" startline="161">_ProcessParam::m_nSizeOfDataBlock</references>
+        <references refid="struct__RadarControllerParam_1afe4e6ae3d735bc6010ffae007eaf22d8" compoundref="ExperimentConstants_8h" startline="153">_RadarControllerParam::m_sRango_IPP</references>
+        <references refid="struct__RadarControllerParam_1a9fe944d2c9c6a4623f5182aca4e02460" compoundref="ExperimentConstants_8h" startline="154">_RadarControllerParam::m_sRango_TXA</references>
+        <references refid="struct__RadarControllerParam_1a3ce50ccbbbd2b8529a0b9b919035bf21" compoundref="ExperimentConstants_8h" startline="155">_RadarControllerParam::m_sRango_TXB</references>
+        <references refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" compoundref="ExperimentParameters_8h" startline="25">MyGPParam</references>
+        <references refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" compoundref="ExperimentParameters_8h" startline="26">MyGRCParam</references>
+        <references refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" compoundref="ExperimentParameters_8h" startline="24">MySystemParam</references>
+        <references refid="ExperimentConstants_8h_1a655c84af1b0034986ff56e12e84f983d" compoundref="ExperimentConstants_8h" startline="29">NONE</references>
+        <references refid="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" compoundref="ExperimentParameters_8h" startline="32">SaveData</references>
+        <referencedby refid="classExpParameters_1aded6d8c3b1bce0f9c25d0d54f38c86d4" compoundref="ExperimentParameters_8h" startline="45" endline="48">ExpParameters</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadRACPFileParameters</definition>
+        <argsstring>(const char *RACPFileName)</argsstring>
+        <name>ReadRACPFileParameters</name>
+        <param>
+          <type>const char *</type>
+          <declname>RACPFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="22" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="106" bodyend="321"/>
+        <references refid="ExperimentConstants_8h_1a54c2a011b47044f713f4a3d53d891798" compoundref="ExperimentConstants_8h" startline="22">_MAX_NAME_PATH</references>
+        <references refid="struct__GlobPParam_1a693efaed127aba9634e79fa2d3be69b6" compoundref="ExperimentConstants_8h" startline="171">_GlobPParam::bCreateDayDir</references>
+        <references refid="struct__GlobPParam_1a3845b5041fa3d0721ec7561ac067b4ac" compoundref="ExperimentConstants_8h" startline="172">_GlobPParam::bNameInDirectory</references>
+        <references refid="ExperimentConstants_8h_1a670da7d976f40c3068ff819dbd5c8371" compoundref="ExperimentConstants_8h" startline="58">DECODING_FREQ_DOMAIN</references>
+        <references refid="ExperimentConstants_8h_1a519c5064db6472f94b3afb2b8c785b8d" compoundref="ExperimentConstants_8h" startline="59">DECODING_INV_FREQ_DOMAIN</references>
+        <references refid="ExperimentConstants_8h_1ab9f3daf1dbd22783120596288d8243de" compoundref="ExperimentConstants_8h" startline="57">DECODING_TIME_DOMAIN</references>
+        <references refid="struct__GlobPParam_1ac28bdb8b27ff1dc65f63569f004497f2" compoundref="ExperimentConstants_8h" startline="174">_GlobPParam::Dyn_nCardSequence</references>
+        <references refid="struct__GlobRCParam_1abc125c5fd3f6736a5df976d249f7ae42" compoundref="ExperimentConstants_8h" startline="194">_GlobRCParam::Dyn_sfAcqDH</references>
+        <references refid="struct__GlobRCParam_1a8b244f458d9be125672a50fe93be9a33" compoundref="ExperimentConstants_8h" startline="193">_GlobRCParam::Dyn_sfAcqH0</references>
+        <references refid="struct__GlobRCParam_1a52af46723bbb43de5a463eda7d61983c" compoundref="ExperimentConstants_8h" startline="197">_GlobRCParam::Dyn_sfL5_AcqDH</references>
+        <references refid="struct__GlobRCParam_1ad9ca65f6a403823a95fa8f8abb4a269e" compoundref="ExperimentConstants_8h" startline="196">_GlobRCParam::Dyn_sfL5_AcqH0</references>
+        <references refid="struct__GlobRCParam_1a6af7cf80baf97f788f9b4e660d502ad0" compoundref="ExperimentConstants_8h" startline="199">_GlobRCParam::Dyn_sfL6_AcqDH</references>
+        <references refid="struct__GlobRCParam_1a5769afb57d754b9ea0ab43e45a26f5cd" compoundref="ExperimentConstants_8h" startline="198">_GlobRCParam::Dyn_sfL6_AcqH0</references>
+        <references refid="struct__GlobRCParam_1ac5ffc72deb6c2beeff3e5053e3de9ff1" compoundref="ExperimentConstants_8h" startline="195">_GlobRCParam::Dyn_sfTau</references>
+        <references refid="struct__GlobRCParam_1a75b52d816c427cacd56aa202274565cf" compoundref="ExperimentConstants_8h" startline="200">_GlobRCParam::Dyn_snAcqNSA</references>
+        <references refid="struct__GlobRCParam_1acd622c026159d3803d31a3e5bd740c71" compoundref="ExperimentConstants_8h" startline="202">_GlobRCParam::Dyn_snL5_AcqNSA</references>
+        <references refid="struct__GlobRCParam_1a24e8a6edd36bce91fa46b97e72834f64" compoundref="ExperimentConstants_8h" startline="204">_GlobRCParam::Dyn_snL6_AcqNSA</references>
+        <references refid="ExperimentConstants_8h_1a60b85b10347a8a481986907c6542fedc" compoundref="ExperimentConstants_8h" startline="25">EXP_RAWDATA</references>
+        <references refid="struct__GlobPParam_1ac78c669920bf569e8a7d00554d6f5848" compoundref="ExperimentConstants_8h" startline="170">_GlobPParam::FixPP</references>
+        <references refid="struct__GlobRCParam_1a3266169525e2a7d77be441ba398a105a" compoundref="ExperimentConstants_8h" startline="192">_GlobRCParam::FixRCP</references>
+        <references refid="ExperimentConstants_8h_1ac09f0c0c28a37852312146afd9322465" compoundref="ExperimentConstants_8h" startline="68">FLAG_DATAARRANGE_CONTIGUOUS_CH</references>
+        <references refid="ExperimentConstants_8h_1a21e40ec1ee18251315099fd6b115c85a" compoundref="ExperimentConstants_8h" startline="69">FLAG_DATAARRANGE_CONTIGUOUS_H</references>
+        <references refid="ExperimentConstants_8h_1a7705dc041ea68249c2320ea41dcb7040" compoundref="ExperimentConstants_8h" startline="70">FLAG_DATAARRANGE_CONTIGUOUS_P</references>
+        <references refid="ExperimentConstants_8h_1aa164e53829c16ba8a8babb2d510f0319" compoundref="ExperimentConstants_8h" startline="67">FLAG_DATATYPE_FLOAT</references>
+        <references refid="ExperimentConstants_8h_1ae1c077a80112c5e2f3785a68d522130b" compoundref="ExperimentConstants_8h" startline="66">FLAG_DATATYPE_SHORT</references>
+        <references refid="ExperimentConstants_8h_1ac18337be165cdda1be483615e5340b70" compoundref="ExperimentConstants_8h" startline="74">FLAG_INVFFTDECODING</references>
+        <references refid="ExperimentConstants_8h_1ac40c19dd1558edb3f174f33639b2e332" compoundref="ExperimentConstants_8h" startline="63">FLAG_SPECTRA_CALC</references>
+        <references refid="classExpParameters_1ac72964b04dc924d0916d94435407715d" compoundref="ExperimentParameters_8h" startline="33">FlagSIR</references>
+        <references refid="struct__GlobPParam_1a3e2167701b356ea0c4ff1203ca225b42" compoundref="ExperimentConstants_8h" startline="173">_GlobPParam::m_bBeginOnStart</references>
+        <references refid="struct__ProcessParam_1ae0dd8ccf7a27c0b36263f8582fe1286b" compoundref="ExperimentConstants_8h" startline="165">_ProcessParam::m_BeginTime</references>
+        <references refid="struct__ProcessParam_1a18dde547d414f4f6dcf8aaf7638eaa0f" compoundref="ExperimentConstants_8h" startline="166">_ProcessParam::m_EndTime</references>
+        <references refid="struct__RadarControllerParam_1a6964e5cce298dae4557429884b89cae9" compoundref="ExperimentConstants_8h" startline="150">_RadarControllerParam::m_fCLOCK</references>
+        <references refid="struct__RadarControllerParam_1ae8ac79e57158371f6524e1d160b0d96e" compoundref="ExperimentConstants_8h" startline="143">_RadarControllerParam::m_fIPP</references>
+        <references refid="struct__RadarControllerParam_1a78c97c86923c5e6d1dffeb4146d186c0" compoundref="ExperimentConstants_8h" startline="144">_RadarControllerParam::m_fTXA</references>
+        <references refid="struct__RadarControllerParam_1a2d2f7e3f9185df7b0c1e6f91a5a419eb" compoundref="ExperimentConstants_8h" startline="145">_RadarControllerParam::m_fTXB</references>
+        <references refid="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" compoundref="ExperimentConstants_8h" startline="129">_SystemParam::m_nADCResolution</references>
+        <references refid="struct__GlobPParam_1a4e4bde5e3d036d9e786677cb2000d74a" compoundref="ExperimentConstants_8h" startline="181">_GlobPParam::m_nCards</references>
+        <references refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" compoundref="ExperimentConstants_8h" startline="128">_SystemParam::m_nChannels</references>
+        <references refid="struct__ProcessParam_1a15138e2f5122880978dbe9558f583256" compoundref="ExperimentConstants_8h" startline="162">_ProcessParam::m_nDataBlocksperFile</references>
+        <references refid="struct__GlobPParam_1a62eefa9d6266e9e6ece155e2fb1faaaf" compoundref="ExperimentConstants_8h" startline="184">_GlobPParam::m_nDecodingFlags</references>
+        <references refid="struct__RadarControllerParam_1aa00899d7fbef313184dae5f7d14aed9b" compoundref="ExperimentConstants_8h" startline="141">_RadarControllerParam::m_nEspType</references>
+        <references refid="struct__ProcessParam_1ae79399a4449f9bbf16922f785e4b89fc" compoundref="ExperimentConstants_8h" startline="160">_ProcessParam::m_nExperimentType</references>
+        <references refid="struct__GlobRCParam_1afbc598e54ede4b0f7f6817093b254fa9" compoundref="ExperimentConstants_8h" startline="201">_GlobRCParam::m_nL5_NumWindows</references>
+        <references refid="struct__GlobRCParam_1a76d6b6065ea406da01a4fab307e46e72" compoundref="ExperimentConstants_8h" startline="203">_GlobRCParam::m_nL6_NumWindows</references>
+        <references refid="struct__RadarControllerParam_1a775a6518abf0f77bdf394be52b17213e" compoundref="ExperimentConstants_8h" startline="149">_RadarControllerParam::m_nLine5_Function</references>
+        <references refid="struct__RadarControllerParam_1a5dbe6442aad203e2868695b437e975a4" compoundref="ExperimentConstants_8h" startline="148">_RadarControllerParam::m_nLine6_Function</references>
+        <references refid="struct__RadarControllerParam_1a11c44c04097c6e7a89f0f4c1c6b92f2d" compoundref="ExperimentConstants_8h" startline="142">_RadarControllerParam::m_nNTX</references>
+        <references refid="struct__RadarControllerParam_1ab5bcaafc644ccb694fc7b1eb5c062e02" compoundref="ExperimentConstants_8h" startline="147">_RadarControllerParam::m_nNum_Taus</references>
+        <references refid="struct__RadarControllerParam_1a9198b8907f08cc14f8bc743d2b9dabe3" compoundref="ExperimentConstants_8h" startline="146">_RadarControllerParam::m_nNum_Windows</references>
+        <references refid="struct__SystemParam_1abb9ba419e2dd0853d6d43e1a32f3de7a" compoundref="ExperimentConstants_8h" startline="135">_SystemParam::m_nNumberOfChannel</references>
+        <references refid="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" compoundref="ExperimentConstants_8h" startline="130">_SystemParam::m_nPCIDIOBusWidth</references>
+        <references refid="struct__ProcessParam_1a46a10ad0dd1d8287b781775cc1f05224" compoundref="ExperimentConstants_8h" startline="164">_ProcessParam::m_nProcessFlags</references>
+        <references refid="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" compoundref="ExperimentConstants_8h" startline="127">_SystemParam::m_nProfiles</references>
+        <references refid="struct__GlobPParam_1a0abce01487be8839d4e3ce356246eb51" compoundref="ExperimentConstants_8h" startline="180">_GlobPParam::m_nProfilesperBlock</references>
+        <references refid="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" compoundref="ExperimentConstants_8h" startline="126">_SystemParam::m_nSamples</references>
+        <references refid="struct__GlobPParam_1acccf4e334a87f3904ff87e2a2ee45174" compoundref="ExperimentConstants_8h" startline="176">_GlobPParam::m_sBaseDirectory</references>
+        <references refid="struct__GlobPParam_1aa6af1a2e02f84a740dbbd62254227838" compoundref="ExperimentConstants_8h" startline="175">_GlobPParam::m_sExpName</references>
+        <references refid="struct__SystemParam_1aa49917e56c5325e41bbb7430e092cf46" compoundref="ExperimentConstants_8h" startline="133">_SystemParam::m_sFilterPath</references>
+        <references refid="struct__RadarControllerParam_1afe4e6ae3d735bc6010ffae007eaf22d8" compoundref="ExperimentConstants_8h" startline="153">_RadarControllerParam::m_sRango_IPP</references>
+        <references refid="struct__RadarControllerParam_1a9fe944d2c9c6a4623f5182aca4e02460" compoundref="ExperimentConstants_8h" startline="154">_RadarControllerParam::m_sRango_TXA</references>
+        <references refid="struct__RadarControllerParam_1a3ce50ccbbbd2b8529a0b9b919035bf21" compoundref="ExperimentConstants_8h" startline="155">_RadarControllerParam::m_sRango_TXB</references>
+        <references refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" compoundref="ExperimentParameters_8h" startline="25">MyGPParam</references>
+        <references refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" compoundref="ExperimentParameters_8h" startline="26">MyGRCParam</references>
+        <references refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" compoundref="ExperimentParameters_8h" startline="24">MySystemParam</references>
+        <references refid="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" compoundref="ExperimentParameters_8h" startline="34">OwnWindow</references>
+        <references refid="classExpParameters_1a3b97a95ea010ca20056bbc9f6807fc00" compoundref="ExperimentParameters_8h" startline="19">PathExperiment</references>
+        <references refid="classExpParameters_1a94423e2a632a70b5565f462b31cf0451" compoundref="ExperimentParameters_8h" startline="39">RacpFileName</references>
+        <references refid="ExperimentConstants_8h_1acd3fa8f18671a8c8f7b5ee902f6bc7ea" compoundref="ExperimentConstants_8h" startline="31">SAMPLING</references>
+        <references refid="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" compoundref="ExperimentParameters_8h" startline="32">SaveData</references>
+        <referencedby refid="classArgProcessor_1a7f00d6545730abc12fcf68ed863d2030" compoundref="ArgProcessor_8h" startline="27" endline="36">ArgProcessor::jro_arguments</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1ab7fee74dc5c37afaa4ec2dd350b68941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ExpParameters::~ExpParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~ExpParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="23" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="32">
+        <label>_GlobRCParam</label>
+        <link refid="struct__GlobRCParam"/>
+        <childnode refid="33" relation="usage">
+          <edgelabel>FixRCP</edgelabel>
+        </childnode>
+      </node>
+      <node id="33">
+        <label>_RadarControllerParam</label>
+        <link refid="struct__RadarControllerParam"/>
+      </node>
+      <node id="30">
+        <label>_GlobPParam</label>
+        <link refid="struct__GlobPParam"/>
+        <childnode refid="31" relation="usage">
+          <edgelabel>FixPP</edgelabel>
+        </childnode>
+      </node>
+      <node id="31">
+        <label>_ProcessParam</label>
+        <link refid="struct__ProcessParam"/>
+      </node>
+      <node id="34">
+        <label>_SystemParam</label>
+        <link refid="struct__SystemParam"/>
+      </node>
+      <node id="29">
+        <label>ExpParameters</label>
+        <link refid="classExpParameters"/>
+        <childnode refid="30" relation="usage">
+          <edgelabel>MyGPParam</edgelabel>
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>MyGRCParam</edgelabel>
+        </childnode>
+        <childnode refid="34" relation="usage">
+          <edgelabel>MySystemParam</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="12" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-SetSystem/include/SetSystem/ArgProcessor/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="11" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classExpParameters_1af62cf5ce717f2c5a8529ca7e709e9715" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>EnableCooperSimulation</name></member>
+      <member refid="classExpParameters_1a04868e35f3f05bfa80d2a2e6e382ca68" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>EnableJARS</name></member>
+      <member refid="classExpParameters_1aded6d8c3b1bce0f9c25d0d54f38c86d4" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>ExpParameters</name></member>
+      <member refid="classExpParameters_1a60fc5c065078a761a2442f30130ad9aa" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>FindValue</name></member>
+      <member refid="classExpParameters_1ac72964b04dc924d0916d94435407715d" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>FlagSIR</name></member>
+      <member refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>Initialize</name></member>
+      <member refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>MyGPParam</name></member>
+      <member refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>MyGRCParam</name></member>
+      <member refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>MySystemParam</name></member>
+      <member refid="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>OwnWindow</name></member>
+      <member refid="classExpParameters_1a3b97a95ea010ca20056bbc9f6807fc00" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>PathExperiment</name></member>
+      <member refid="classExpParameters_1a94423e2a632a70b5565f462b31cf0451" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>RacpFileName</name></member>
+      <member refid="classExpParameters_1af6198303a773f95fc569bd8d29173c53" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>ReadJARSParameters</name></member>
+      <member refid="classExpParameters_1a56fab265e4ce41149f2042cc8cf97ec6" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>ReadProcessParameters</name></member>
+      <member refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>ReadRACPFileParameters</name></member>
+      <member refid="classExpParameters_1a8fd4661f2383af87ceefc9a11faa16c9" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>ReadRCParameters</name></member>
+      <member refid="classExpParameters_1aeaeef1d041a31165e6bd8c25c58f0857" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>ReadSysParameters</name></member>
+      <member refid="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>SaveData</name></member>
+      <member refid="classExpParameters_1ab7fee74dc5c37afaa4ec2dd350b68941" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>~ExpParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
